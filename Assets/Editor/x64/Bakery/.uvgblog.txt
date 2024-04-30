@@ -8341,3 +8341,243 @@ Total cache size 268420464
 Total cache size after purge 268420464
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
+2024-4-30
+Rendering UV GBuffer for ShowroomBaked_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ShowroomBaked_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ShowroomBaked_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ShowroomBaked_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ShowroomBaked_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ShowroomBaked_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ShowroomBaked_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "D:/LightingCache" "uvpos_ShowroomBaked_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LMA5_ao" 8 16 5
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LMA3_ao" 8 16 3
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LMA4_ao" 8 16 4
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LMA1_ao" 8 16 1
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LMA6_ao" 8 16 6
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LM0_ao" 8 16 0
+Running ftraceRTX ao "D:/LightingCache" "ShowroomBaked_LMA2_ao" 8 16 2
+Running ftraceRTX skysh "D:/LightingCache" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX skysh "D:/LightingCache" "light_1_3" 1924 0 3 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX skysh "D:/LightingCache" "light_1_4" 1924 0 4 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX skysh "D:/LightingCache" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "D:/LightingCache" "light_1_6" 1924 0 6 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX skysh "D:/LightingCache" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skysh "D:/LightingCache" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "D:/LightingCache" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "D:/LightingCache" "ShowroomBaked_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA5_diffuse" 4 16 5 "gi_ShowroomBaked_LMA50.bin" "ShowroomBaked_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA3_diffuse" 4 16 3 "gi_ShowroomBaked_LMA30.bin" "ShowroomBaked_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA4_diffuse" 4 16 4 "gi_ShowroomBaked_LMA40.bin" "ShowroomBaked_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA1_diffuse" 4 16 1 "gi_ShowroomBaked_LMA10.bin" "ShowroomBaked_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA6_diffuse" 4 16 6 "gi_ShowroomBaked_LMA60.bin" "ShowroomBaked_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LM0_diffuse" 4 16 0 "gi_ShowroomBaked_LM00.bin" "ShowroomBaked_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA2_diffuse" 4 16 2 "gi_ShowroomBaked_LMA20.bin" "ShowroomBaked_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA5_diffuse" 4 16 5 "gi_ShowroomBaked_LMA51.bin" "ShowroomBaked_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA3_diffuse" 4 16 3 "gi_ShowroomBaked_LMA31.bin" "ShowroomBaked_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA4_diffuse" 4 16 4 "gi_ShowroomBaked_LMA41.bin" "ShowroomBaked_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA1_diffuse" 4 16 1 "gi_ShowroomBaked_LMA11.bin" "ShowroomBaked_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA6_diffuse" 4 16 6 "gi_ShowroomBaked_LMA61.bin" "ShowroomBaked_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LM0_diffuse" 4 16 0 "gi_ShowroomBaked_LM01.bin" "ShowroomBaked_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA2_diffuse" 4 16 2 "gi_ShowroomBaked_LMA21.bin" "ShowroomBaked_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA5_diffuse" 4 16 5 "gi_ShowroomBaked_LMA52.bin" "ShowroomBaked_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA3_diffuse" 4 16 3 "gi_ShowroomBaked_LMA32.bin" "ShowroomBaked_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA4_diffuse" 4 16 4 "gi_ShowroomBaked_LMA42.bin" "ShowroomBaked_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA1_diffuse" 4 16 1 "gi_ShowroomBaked_LMA12.bin" "ShowroomBaked_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA6_diffuse" 4 16 6 "gi_ShowroomBaked_LMA62.bin" "ShowroomBaked_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LM0_diffuse" 4 16 0 "gi_ShowroomBaked_LM02.bin" "ShowroomBaked_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA2_diffuse" 4 16 2 "gi_ShowroomBaked_LMA22.bin" "ShowroomBaked_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA5_diffuse" 4 16 5 "gi_ShowroomBaked_LMA53.bin" "ShowroomBaked_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA3_diffuse" 4 16 3 "gi_ShowroomBaked_LMA33.bin" "ShowroomBaked_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA4_diffuse" 4 16 4 "gi_ShowroomBaked_LMA43.bin" "ShowroomBaked_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA1_diffuse" 4 16 1 "gi_ShowroomBaked_LMA13.bin" "ShowroomBaked_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA6_diffuse" 4 16 6 "gi_ShowroomBaked_LMA63.bin" "ShowroomBaked_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LM0_diffuse" 4 16 0 "gi_ShowroomBaked_LM03.bin" "ShowroomBaked_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/LightingCache" "ShowroomBaked_LMA2_diffuse" 4 16 2 "gi_ShowroomBaked_LMA23.bin" "ShowroomBaked_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LMA5_final" 1924 16 5 "gi_ShowroomBaked_LMA54.bin" "ShowroomBaked_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LMA3_final" 1924 16 3 "gi_ShowroomBaked_LMA34.bin" "ShowroomBaked_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LMA4_final" 1924 16 4 "gi_ShowroomBaked_LMA44.bin" "ShowroomBaked_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LMA1_final" 1924 16 1 "gi_ShowroomBaked_LMA14.bin" "ShowroomBaked_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LMA6_final" 1924 16 6 "gi_ShowroomBaked_LMA64.bin" "ShowroomBaked_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LM0_final" 1924 16 0 "gi_ShowroomBaked_LM04.bin" "ShowroomBaked_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/LightingCache" "ShowroomBaked_LMA2_final" 1924 16 2 "gi_ShowroomBaked_LMA24.bin" "ShowroomBaked_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LMA5_final_" 4 0 5 shcomp_5.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LMA5_final_L0.lz4" 4 0 5 addao_5.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LMA5_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LMA5_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LMA5_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LMA5_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "5" "ShowroomBaked_LMA5_final_L0.lz4" "ShowroomBaked_LMA5_final_L1x.lz4" "ShowroomBaked_LMA5_final_L1y.lz4" "ShowroomBaked_LMA5_final_L1z.lz4"
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LMA3_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LMA3_final_L0.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LMA3_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LMA3_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LMA3_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LMA3_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "3" "ShowroomBaked_LMA3_final_L0.lz4" "ShowroomBaked_LMA3_final_L1x.lz4" "ShowroomBaked_LMA3_final_L1y.lz4" "ShowroomBaked_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LMA4_final_" 4 0 4 shcomp_4.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LMA4_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LMA4_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LMA4_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LMA4_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LMA4_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "4" "ShowroomBaked_LMA4_final_L0.lz4" "ShowroomBaked_LMA4_final_L1x.lz4" "ShowroomBaked_LMA4_final_L1y.lz4" "ShowroomBaked_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LMA1_final_" 4 0 1 shcomp_1.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LMA1_final_L0.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LMA1_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LMA1_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LMA1_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LMA1_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "1" "ShowroomBaked_LMA1_final_L0.lz4" "ShowroomBaked_LMA1_final_L1x.lz4" "ShowroomBaked_LMA1_final_L1y.lz4" "ShowroomBaked_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LMA6_final_" 4 0 6 shcomp_6.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LMA6_final_L0.lz4" 4 0 6 addao_6.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LMA6_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LMA6_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LMA6_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LMA6_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "6" "ShowroomBaked_LMA6_final_L0.lz4" "ShowroomBaked_LMA6_final_L1x.lz4" "ShowroomBaked_LMA6_final_L1y.lz4" "ShowroomBaked_LMA6_final_L1z.lz4"
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LM0_final_" 4 0 0 shcomp_0.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LM0_final_L0.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LM0_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LM0_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LM0_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "0" "ShowroomBaked_LM0_final_L0.lz4" "ShowroomBaked_LM0_final_L1x.lz4" "ShowroomBaked_LM0_final_L1y.lz4" "ShowroomBaked_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "D:/LightingCache" "ShowroomBaked_LMA2_final_" 4 0 2 shcomp_2.bin
+Running ftraceRTX addao "D:/LightingCache" "ShowroomBaked_LMA2_final_L0.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN2 s "D:/LightingCache/ShowroomBaked_LMA2_final_L0.lz4" "D:/LightingCache/ShowroomBaked_LMA2_final_L1x.lz4" "D:/LightingCache/ShowroomBaked_LMA2_final_L1y.lz4" "D:/LightingCache/ShowroomBaked_LMA2_final_L1z.lz4" 1024 0
+Running seamfixer "D:/LightingCache" "2" "ShowroomBaked_LMA2_final_L0.lz4" "ShowroomBaked_LMA2_final_L1x.lz4" "ShowroomBaked_LMA2_final_L1y.lz4" "ShowroomBaked_LMA2_final_L1z.lz4"
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LMA5_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA5_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA5_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA5_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA5_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA5_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA5_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA5_L1z.tga" 
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LMA3_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA3_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA3_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA3_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA3_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA3_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA3_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA3_L1z.tga" 
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LMA4_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA4_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA4_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA4_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA4_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA4_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA4_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA4_L1z.tga" 
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LMA1_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA1_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA1_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA1_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA1_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA1_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA1_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA1_L1z.tga" 
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LMA6_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA6_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA6_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA6_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA6_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA6_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA6_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA6_L1z.tga" 
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LM0_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LM0_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LM0_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LM0_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LM0_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LM0_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LM0_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LM0_L1z.tga" 
+Running halffloat2hdr "D:/LightingCache/ShowroomBaked_LMA2_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA2_L0.hdr" 1024
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA2_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA2_L1x.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA2_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA2_L1y.tga" 
+Running rgba2tga "D:/LightingCache/ShowroomBaked_LMA2_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/ShowroomBaked/ShowroomBaked_LMA2_L1z.tga" 
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 266890504
+Total cache size after purge 266890504
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 267012756
+Total cache size after purge 267012756
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 267012756
+Total cache size after purge 267012756
+Total cache size 267169952
+Total cache size after purge 267169952
+Total cache size 268032244
+Total cache size after purge 268032244
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268032244
+Total cache size after purge 268032244
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+abort_threads: Failed aborting id: 00000000000038AC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000030A8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000051C4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000038AC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000030A8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000051C4, mono_thread_manage will ignore it
+

@@ -3436,7 +3436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d928e04bb3a914db2cdcce38d1e728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clothingAssetId: 69
+  _clothingAssetId: 70
   _loadedModel: {fileID: 0}
 --- !u!4 &485797666
 Transform:
