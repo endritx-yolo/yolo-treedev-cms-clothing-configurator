@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class ClothingModelImporter : MonoBehaviour
 {
-    [SerializeField] private uint _clothingAssetId = 68;
+    public event Action OnActionComplete;
+    
+    [SerializeField] private uint _clothingAssetId;
 
     [SerializeField] private GameObject _loadedModel;
-
-    private ClothingModelLoaderManager _loadingManager;
+    
     private GLTFModelImporter _gltfImporter;
 
     public GameObject LoadedModel => _loadedModel;
-
+    
     [Button]
     private void Start()
     {
-        _loadingManager = GetComponent<ClothingModelLoaderManager>();
         _gltfImporter = GetComponent<GLTFModelImporter>();
         ShowroomAssetController.GetById(_clothingAssetId, OnGetAssetModel);
     }
@@ -29,5 +29,6 @@ public class ClothingModelImporter : MonoBehaviour
     private void GetModelReference(GameObject model)
     {
         _loadedModel = _gltfImporter.Model;
+       OnActionComplete?.Invoke();
     }
 }
