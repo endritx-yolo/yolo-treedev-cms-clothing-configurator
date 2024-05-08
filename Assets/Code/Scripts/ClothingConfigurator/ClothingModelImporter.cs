@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -13,6 +14,8 @@ public class ClothingModelImporter : MonoBehaviour
     private GLTFModelImporter _gltfImporter;
 
     public GameObject LoadedModel => _loadedModel;
+
+    
     
     [Button]
     private void Start()
@@ -31,4 +34,5 @@ public class ClothingModelImporter : MonoBehaviour
         _loadedModel = _gltfImporter.Model;
        OnActionComplete?.Invoke();
     }
+    
 }

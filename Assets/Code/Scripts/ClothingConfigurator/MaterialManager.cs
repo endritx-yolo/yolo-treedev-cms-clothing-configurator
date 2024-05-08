@@ -11,6 +11,8 @@ public class MaterialManager : MonoBehaviour
     private readonly List<GameObject> _loadedModels = new();
     private readonly List<Texture> _loadedTextures = new();
     private readonly List<Color> _loadedColors = new();
+    
+    private string _layerMaskName = "Inspection";
 
     private void Awake()
     {
@@ -20,7 +22,7 @@ public class MaterialManager : MonoBehaviour
 
     private IEnumerator GetTexturesAndColors()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(8f);
         foreach (var clothingModel in _clothingModelImporter)
         {
             _loadedModels.Add(clothingModel.LoadedModel);
@@ -45,12 +47,20 @@ public class MaterialManager : MonoBehaviour
         foreach (var loadedModel in _loadedModels)
         {
             for (var i = 0; i < loadedModel.transform.childCount; i++)
-            {
+            { 
+                var child = loadedModel.transform.GetChild(i);
+                child.gameObject.AddComponent<MeshCollider>();
                var loadedModelMaterial = loadedModel.transform.GetChild(i).GetComponent<MeshRenderer>().material;
                loadedModelMaterial.shader = Shader.Find("Standard");
                loadedModelMaterial.SetTexture("_MainTex",_loadedTextures[i]);
                loadedModelMaterial.SetColor("_Color",_loadedColors[i]);
+               child.gameObject.tag = "Object";
+               child.gameObject.layer = LayerMask.NameToLayer(_layerMaskName);
             }
+
+            var modeli = loadedModel.transform;
+            modeli.gameObject.tag = "Object";
+            modeli.gameObject.AddComponent<MeshCollider>();
         }
     }
 }
