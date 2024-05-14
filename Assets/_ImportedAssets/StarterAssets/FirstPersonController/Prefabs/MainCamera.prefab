@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9018249871969862650}
   - component: {fileID: 3249454652691661260}
   - component: {fileID: 557124592991804977}
+  - component: {fileID: 869478807428117839}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -203,6 +204,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newCameraCullingMask:
     serializedVersion: 2
-    m_Bits: 131136
+    m_Bits: 131072
   newCameraClearFlags: 2
   newCameraBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &869478807428117839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9005220659476430823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451489b0be396dd40a77970f08332466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomSpeed: 5
+  smoothness: 5

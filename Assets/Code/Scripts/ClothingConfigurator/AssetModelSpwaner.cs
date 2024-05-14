@@ -18,7 +18,7 @@ public class AssetModelSpwaner : MonoBehaviour
     private void ClothingModelImporter_OnActionComplete()
     { 
         _clothingModelImporter.LoadedModel.transform.position = _spawnPoints.transform.position;
-        _clothingModelImporter.LoadedModel.transform.rotation = _spawnPoints.transform.rotation;
+        _clothingModelImporter.LoadedModel.transform.eulerAngles = _spawnPoints.transform.eulerAngles;
 
     }
 }

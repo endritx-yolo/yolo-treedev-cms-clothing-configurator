@@ -12,10 +12,10 @@ public class CameraInspectorEffect : SceneSingleton<CameraInspectorEffect>
     [SerializeField] private LayerMask newCameraCullingMask;
     [SerializeField] private CameraClearFlags newCameraClearFlags;
     [SerializeField] private Color newCameraBackgroundColor;
+    [SerializeField] private GameObject _Canvas;
     
     
-
-    private void Awake()
+    protected override void Awake()
     {
         _mainCamera = Camera.main;
     }
@@ -25,6 +25,7 @@ public class CameraInspectorEffect : SceneSingleton<CameraInspectorEffect>
         _mainCamera.cullingMask = newCameraCullingMask;
         _mainCamera.backgroundColor = newCameraBackgroundColor;
         _mainCamera.clearFlags = newCameraClearFlags;
+        _Canvas.SetActive(false);
     }
 
     public void ResetCameraSettings()
