@@ -476,9 +476,205 @@ MonoBehaviour:
   - Assets/TriLibSampleModel.obj
   - Packages/com.atteneder.gltfast/Tests/Runtime/Export/Models/Submesh.fbx
   - Packages/com.atteneder.gltfast/Tests/Runtime/Export/Models/QuadCube.fbx
-  - Assets/Art/Models/ShowModels/air_jordan_puma.fbx
-  - Assets/Art/Models/ShowModels/christian_dior.fbx
-  uvOverlapAssetList: 00000000ffffffff010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000101000000000000000000000000000000000000010100000000000000000000000000000101000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000010100000000000000000000010100000101000001010000
+  - Assets/Art/Models/Herma/859952_0.fbx
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    11.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Brimnes/Brimnes.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Books/Books.FBX
+  - Assets/_ImportedAssets/MagicaCloth2/Example (Can be deleted)/Common/Model/arrow_b.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stones/Stones3.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Curtain_Holder.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/LoadExtraAnimations/Models/BuddyBase.fbx
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_S.anim.fbx
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+  - Assets/Bakery/examples/content/logolight.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/LoadExtraAnimations/Models/BuddyJump.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stockholm_Bowl/Stockholm_Bowl.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Eket/Eket.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Trees/SilverBirch_01_Vertex.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hemnas/Hemnes_Shelf.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Mirror/Mirror.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Soderhamn/Soderhamn.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/AvatarLoader/Models/idle_anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kallax_Serie/Kallax_Serie.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Curtain/Curtain.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Wardrobe.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Brunsta/Brunsta.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    9.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Trees/SilverBirch_02_Vertex.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/PS Hanger/PS_Hanger.FBX
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    1.obj
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D HDRI/Environment_Sphere.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Carpet_Flottebo/Carpet_Flottebo.FBX
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Grondaie.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    4.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Candle_Set2/Candle_Set2.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Vases3/Vases3.FBX
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Chair/Chair.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Riggad/Riggad.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Eames Plastic Chair/Plastic_Chair.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Pillows/Pillows.FBX
+  - Assets/_ImportedAssets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/UnityCHanKAGURA.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Props/Props_Vase4.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stockholm/Stockholm.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Rocking Chair/Rocking_Chair.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    3.obj
+  - Assets/Plugins/CW/LeanCommon/Examples/Meshes/RoundedCube.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Shower/Shower.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Flottebo/Flottebo.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Isfjorden/Isfjorden.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Sinnerlig/Sinnerlig.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/SpotLight Wardrobe/SpotLightWardrobe.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Mac/Mac.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/LoadExtraAnimations/Models/BuddyIdle.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Collision.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Props/Props_Vase2.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Alseda/Alseda.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Burvik/Burvik.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Skogsta/Skogsta.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Vase1/Branches.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Ypperlig_Bench/Ypperlig_Bench.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Branas/Branas.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hektar/Hektar.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Idolf/Idolf.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/LoadModelFromFile/Models/TriLibSampleModel.obj
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Rastog/Rastog.FBX
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hemnas/Hemnes_Living.FBX
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Fridge/Fridge.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Skirting.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stones/Stones2.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Livslang/Livslang.FBX
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Trees/SilverBirch_01.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Decor_Wire/Decors_Wire.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Trees/SilverBirch_02.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D SHADER/Clouds/Clouds.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Ikea_PS/Ikea_PS.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Svalnas/Svalnas.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Knod/Knod.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Fortuny/Fortuny.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Picture/Picture.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Cables.FBX
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  - Assets/Art/Models/LightrayModel/LightRayCone.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kitchen_Accessory/Kitchen_Accessory.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Lisabo/Lisabo.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Sinnesro/Sinnesro.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    7.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Alu_Chair/Alu_Chair.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    5.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Carpet_Lappljung/Carpet_Lappljung.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kitchen Ikea/Hood/Kitchen_Hood.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Glasses_Rain_Collapsed.FBX
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kallax_Accessory/Kallax_Accessory.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Gladom/Gladom.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stones/Stones1.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/LoadExtraAnimations/Models/BuddyWalk.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Props/Props_Vase.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    12.obj
+  - Assets/Art/Models/Characters/PartyMale/party-m-0001.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hemnes_Bedside/Hemnes_Bedside.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Vase1/Vase1.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Strandmon/Strandmon.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/ListModelResources/Models/TriLibSampleModel.obj
+  - Assets/Art/Models/Characters/PartyFemale/party-f-0001.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kitchen Ikea/Kitchen.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Pictures2/Pictures2.FBX
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Dish_Decorative/Dish.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/UserPropertiesLoading/Models/WithMyData.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Props/Props_Vase3.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Trees/Tree_03_Vertex.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Frosta/Frosta.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    6.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Model_Vertex.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Carpet_Kollund/Carpet_Kollund.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Foto/Foto.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Nimo/Nimo.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Candle_Set/Candle_Set.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Sanitary/Sanitary.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Pello/Pello.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stockholm Suspension/Stockholm_Suspension.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/AvatarLoader/Models/FinalRig.fbx
+  - Assets/_ImportedAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N_Land.anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Net.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Selsligt/Selsligt.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Strala Star/Strala
+    Star.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Ground.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Towel_Heater/Towel_Heater.FBX
+  - Assets/_ImportedAssets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Rocks/Rocks.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kitchen Ikea/Kitchen_Tiles.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Elvengen/Elvengen.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Cardboard/Cardboard.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/model - Copy.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Travi.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Model.FBX
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/AvatarLoader/Models/walk_anim.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Lauter/Lauter.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Vase2/Vase2.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hemnes_Batroom/Hemnes_Batroom.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    2.obj
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Ypperlig/Ypperlig.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Props/Props_Bird.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stockholm_Vases/Stockholm_Vases.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kettle/Kettle.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Stocksund/Stocksund.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Jorid/Jorid.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Superfront/Superfront.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Office_Board/Office_Board.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Frame/Frame.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Samspelt/Samspelt.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Bjursta/Bjursta.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hallstavik/Hallstavik.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Collision_Rain.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Towel/Towel.FBX
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  - Assets/_ImportedAssets/TriLib/TriLibSamples/LoadModelFromStream/Models/TriLibSampleModel.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Ypperlig_Chair/Ypperlig_Chair.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Pottery/Pottery.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kallax_Chest/Kallax_Chest.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Ypperlig_Table/Ypperlig_Table.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    8.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Carpet_Bronden/Carpet_Bronden.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kallax_Accessory/Kallax_Doors.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Selje/Selje.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Kragsta/Kragsta.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Doors.FBX
+  - Assets/_ImportedAssets/MagicaCloth2/Example (Can be deleted)/UnityChan/UnityChanKAGURA/Animation/UC01_001_UniteInTheSky
+    -WA-.fbx
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Hemnas/Hemnes_Drawer.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Windows.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Ypperlig_Table_Set/Ypperlig_Table_Set.FBX
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/AVP6_Wood.FBX
+  - Assets/_ImportedAssets/Display room/Prefabs/3D models/Lamps/Prefabs/Models/Lamp
+    10.obj
+  - Assets/_ImportedAssets/ArchVizPRO Interior Vol.6/3D MODEL/Desk/Desk.FBX
+  - Assets/_ImportedAssets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx
+  - Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+  uvOverlapAssetList: 00000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000000000001010000000000000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000101000000000000000000000101000000000000010100000101000000000000000000000000000001010000010100000000000000000000000000000101000000000000010100000101000000000000000000000101000000000000010100000101000001010000010100000101000001010000010100000000000000000000010100000101000000000000000000000000000001010000010100000101000000000000000000000000000001010000010100000101000000000000000000000101000000000000010100000101000001010000010100000000000001010000000000000000000001010000010100000000000000000000000000000000000001010000000000000000000001010000000000000000000000000000000000000000000001010000000000000000000001010000000000000101000000000000010100000000000001010000000000000000000001010000000000000101000000000000010100000101000000000000010100000000000001010000010100000000000001010000010100000000000000000000000000000101000000000000000000000101000000000000010100000000000000000000010100000101000000000000000000000101000001010000000000000101000000000000000000000101000000000000010100000101000000000000010100000101000001010000000000000101000001010000000000000000000001010000010100000101000001010000000000000101000000000000000000000101000000000000010100000101000001010000000000000000000000000000010100000000000001010000000000000000000000000000000000000000000001010000010100000101000000000000010100000000000001010000010100000101000001010000000000000000000001010000000000000000000001010000000000000101000000000000010100000101000000000000000000000101000001010000010100000101000001010000000000000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3060
