@@ -1,4 +1,6 @@
-﻿ using UnityEngine;
+﻿ using System;
+ using UnityEngine;
+ using Random = UnityEngine.Random;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -74,6 +76,8 @@ namespace StarterAssets
 
         [Tooltip("For locking the camera position on all axis")]
         public bool LockCameraPosition = false;
+        
+        [SerializeField] private GameObject _interactionCanvas;
 
         // cinemachine
         private float _cinemachineTargetYaw;
@@ -210,6 +214,23 @@ namespace StarterAssets
             CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride,
                 _cinemachineTargetYaw, 0.0f);
         }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Object"))
+            {
+                _interactionCanvas.SetActive(true);
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.CompareTag("Object"))
+            {
+                _interactionCanvas.SetActive(false);
+            }
+        }
+
 
         private void Move()
         {
