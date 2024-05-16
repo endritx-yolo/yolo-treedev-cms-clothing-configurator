@@ -20,7 +20,7 @@ public class MannequinInspection : MonoBehaviour
     private Transform _examinedObject;
     private Quaternion _startRotation;
     private float _currentRotation;
-
+    public static event Action<bool> OnMannequinExamine;
     private void Start()
     {
         Transform transform1;
@@ -57,6 +57,7 @@ public class MannequinInspection : MonoBehaviour
         }
         if (!Input.GetKeyDown(KeyCode.E)) return;
         _isExamining = !_isExamining;
+        OnMannequinExamine?.Invoke(_isExamining);
         if (!_interactable) return;
         if (_isExamining)
         {
@@ -125,6 +126,11 @@ public class MannequinInspection : MonoBehaviour
         }
 
 
+    }
+
+    public Transform ExaminedObject()
+    {
+        return _examinedObject;
     }
 }
 
