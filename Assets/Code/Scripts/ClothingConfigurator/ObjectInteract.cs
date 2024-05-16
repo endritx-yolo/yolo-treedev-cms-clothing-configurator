@@ -8,15 +8,24 @@ public class ObjectInteract : MonoBehaviour
     [SerializeField] private ClothingModelImporter[] _clothingModelImporter;
     private readonly List<GameObject> _loadedModels = new();
 
+    private GLTFModelImporter[] _modelImporterArray;
+    
     private void Awake()
     {
+        _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
         _clothingModelImporter = GetComponentsInChildren<ClothingModelImporter>();
-        StartCoroutine(FillListWithLoadedModels());
+        
+        for (int i = 0; i < _modelImporterArray.Length; i++)
+        {
+            _modelImporterArray[i].OnLoaded += ClothingModelArray;
+        }
     }
 
-    private IEnumerator FillListWithLoadedModels()
+    private void ClothingModelArray()
     {
-        yield return new WaitForSeconds(5f);
+        for (int i = 0; i < _modelImporterArray.Length; i++)
+            if (!_modelImporterArray[i].IsLoaded)
+                return;
         foreach (var clothingModel in _clothingModelImporter)
         {
             _loadedModels.Add(clothingModel.LoadedModel);
