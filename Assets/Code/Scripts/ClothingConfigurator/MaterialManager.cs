@@ -11,18 +11,27 @@ public class MaterialManager : MonoBehaviour
     private readonly List<GameObject> _loadedModels = new();
     private readonly List<Texture> _loadedTextures = new();
     private readonly List<Color> _loadedColors = new();
+    private GLTFModelImporter[] _modelImporterArray;
     
     private readonly string _layerMaskName = "Inspection";
 
     private void Awake()
     {
+        _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
         _clothingModelImporter = GetComponentsInChildren<ClothingModelImporter>();
-        StartCoroutine(GetTexturesAndColors());
+        
+        for (int i = 0; i < _modelImporterArray.Length; i++)
+        {
+            _modelImporterArray[i].OnLoaded += GetTexturesAndColors;
+        }
     }
 
-    private IEnumerator GetTexturesAndColors()
+    private void GetTexturesAndColors()
     {
-        yield return new WaitForSeconds(7f);
+        for (int i = 0; i < _modelImporterArray.Length; i++)
+            if (!_modelImporterArray[i].IsLoaded)
+                return;
+        
         foreach (var clothingModel in _clothingModelImporter)
         {
             _loadedModels.Add(clothingModel.LoadedModel);
