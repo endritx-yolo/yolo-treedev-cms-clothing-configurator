@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class ObjectInteract : MonoBehaviour
 {
-    private ClothingModelImporter[] _clothingModelImporter;
-    private readonly List<GameObject> _loadedModels = new();
+   [SerializeField] private ClothingModelImporter[] _clothingModelImporter;
+   [SerializeField] private readonly List<GameObject> _loadedModels = new();
 
     private void Awake()
     {
