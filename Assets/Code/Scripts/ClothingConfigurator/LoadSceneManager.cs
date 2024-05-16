@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,15 +5,24 @@ public class LoadSceneManager : MonoBehaviour
 {
     [SerializeField] private string sceneToLoadName;
 
+    private GLTFModelImporter[] _modelImporterArray;
 
-    private void Start()
+    private void Awake()
     {
-        StartCoroutine(LoadSceneAsync());
+        _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
+
+        for (int i = 0; i < _modelImporterArray.Length; i++)
+        {
+            _modelImporterArray[i].OnLoaded += TryLoadNextScene;
+        }
     }
 
-    private IEnumerator LoadSceneAsync()
+    private void TryLoadNextScene()
     {
-        yield return new WaitForSeconds(5f);
+        for (int i = 0; i < _modelImporterArray.Length; i++)
+            if (!_modelImporterArray[i].IsLoaded)
+                return;
+
         SceneManager.LoadSceneAsync(sceneToLoadName, LoadSceneMode.Additive);
     }
 }

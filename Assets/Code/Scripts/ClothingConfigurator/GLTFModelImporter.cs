@@ -5,8 +5,22 @@ using System;
 
 public class GLTFModelImporter : MonoBehaviour
 {
+    public event Action OnLoaded;
+
     private GltfImportTask _task;
     private GameObject _model;
+
+    private bool _isLoaded;
+
+    public bool IsLoaded
+    {
+        get => _isLoaded;
+        set
+        {
+            _isLoaded = value;
+            if (_isLoaded) OnLoaded?.Invoke();
+        }
+    }
 
     public GameObject Model => _model;
 
@@ -33,6 +47,7 @@ public class GLTFModelImporter : MonoBehaviour
     {
         _model = importedModel;
         _cachedCallback?.Invoke(importedModel);
+        IsLoaded = true;
     }
 
     private void OnProgress(GltfImportStep step, int completed, int total)
