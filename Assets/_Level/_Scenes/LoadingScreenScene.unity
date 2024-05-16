@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 1073599041}
   - component: {fileID: 1073599040}
   m_Layer: 0
-  m_Name: MaterialManager
+  m_Name: Mannequinn Configurator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
