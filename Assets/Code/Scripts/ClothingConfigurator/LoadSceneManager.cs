@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using NaughtyAttributes;
 
 public class LoadSceneManager : MonoBehaviour
 {
-    [SerializeField] private string sceneToLoadName;
+    [Scene][SerializeField] private string sceneToLoadName;
 
     private GLTFModelImporter[] _modelImporterArray;
 
