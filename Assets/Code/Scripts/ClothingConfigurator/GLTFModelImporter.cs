@@ -6,8 +6,6 @@ using System;
 public class GLTFModelImporter : MonoBehaviour
 {
     public event Action OnLoaded;
-
-
     public static event Action<int, int> OnLoadingModels; 
     
     private GltfImportTask _task;

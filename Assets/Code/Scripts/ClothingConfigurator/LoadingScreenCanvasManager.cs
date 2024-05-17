@@ -9,6 +9,7 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     [SerializeField] private GameObject loadingScreenCanvas;
     private GLTFModelImporter[] _gltfModelImporter;
     [SerializeField] private SliderPresenter sliderPresenter;
+    [SerializeField] private SliderPresenter highlitedSliderPresenter;
     
     private void Awake()
     {
@@ -33,16 +34,15 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     {
         loadingScreenCanvas.SetActive(true);
         sliderPresenter.UpdateSlider(currentDownload, totalDownload);
-        Debug.Log("CURRENT: " + currentDownload);
-
+        highlitedSliderPresenter.UpdateSlider(currentDownload, totalDownload);
     }
 
     private void TryHideLoadingScreen()
     {
-        for (int i = 0; i < _gltfModelImporter.Length; i++)
-            if (!_gltfModelImporter[i].IsLoaded)
+        foreach (var model in _gltfModelImporter)
+            if (!model.IsLoaded)
                 return;
-        
+
         loadingScreenCanvas.SetActive(false);
     }
    

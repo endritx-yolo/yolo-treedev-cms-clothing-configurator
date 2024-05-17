@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class SliderPresenter : MonoBehaviour
+public class HighlitedSliderPresenter : MonoBehaviour
 {
     private Slider _progressSlider;
-    [SerializeField] private float multiplySlider;
+    [SerializeField] private float multiplaySlider;
     
     private void Awake()
     {
@@ -16,9 +15,9 @@ public class SliderPresenter : MonoBehaviour
     }
     
     
-    public void UpdateSlider(int currentDownload,int totalDownload)
+    public void UpdateSlider2(int currentDownload,int totalDownload)
     {
         _progressSlider.maxValue = totalDownload;
-        _progressSlider.value = currentDownload * multiplySlider;
+        _progressSlider.value = currentDownload * multiplaySlider;
     }
 }
