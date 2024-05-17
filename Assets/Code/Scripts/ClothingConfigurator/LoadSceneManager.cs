@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using NaughtyAttributes;
@@ -5,8 +6,9 @@ using NaughtyAttributes;
 public class LoadSceneManager : MonoBehaviour
 {
     [Scene][SerializeField] private string sceneToLoadName;
-
     private GLTFModelImporter[] _modelImporterArray;
+
+   
 
     private void Awake()
     {
@@ -15,6 +17,7 @@ public class LoadSceneManager : MonoBehaviour
         for (int i = 0; i < _modelImporterArray.Length; i++)
         {
             _modelImporterArray[i].OnLoaded += TryLoadNextScene;
+
         }
     }
 
