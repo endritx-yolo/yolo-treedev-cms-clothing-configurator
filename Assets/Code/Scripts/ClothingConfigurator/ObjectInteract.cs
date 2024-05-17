@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +7,9 @@ public class ObjectInteract : MonoBehaviour
     private readonly List<GameObject> _loadedModels = new();
 
     private GLTFModelImporter[] _modelImporterArray;
-    
+
+    public List<GameObject> LoadedModels => _loadedModels;
+
     private void Awake()
     {
         _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
@@ -28,21 +28,19 @@ public class ObjectInteract : MonoBehaviour
                 return;
         foreach (var clothingModel in _clothingModelImporter)
         {
-            _loadedModels.Add(clothingModel.LoadedModel);
+            LoadedModels.Add(clothingModel.LoadedModel);
         }
         AddBoxColliderToModels();
     }
 
     private void AddBoxColliderToModels()
     {
-        foreach (var model in _loadedModels)
+        foreach (var model in LoadedModels)
         {
             model.AddComponent<MannequinInspection>();
             var boxCollider = model.AddComponent<BoxCollider>();
             boxCollider.size = Vector3.one * 3f;
             boxCollider.isTrigger = true;
-
         }
     }
-    
 }

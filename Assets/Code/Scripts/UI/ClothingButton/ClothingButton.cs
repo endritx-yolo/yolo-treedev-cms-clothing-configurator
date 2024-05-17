@@ -1,15 +1,16 @@
 using System;
-using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ClothingButton : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
 {
     public event Action<ClothingButton> OnSelected;
+
+    private GameObject _referencedModel;
     
     private ITweener[] _tweenerArray;
 
-    private bool _isSelected;
+    [SerializeField] private bool _isSelected;
 
     #region Properties
 
@@ -17,6 +18,12 @@ public class ClothingButton : MonoBehaviour, IPointerEnterHandler, IPointerClick
     {
         get => _isSelected;
         set => _isSelected = value;
+    }
+
+    public GameObject ReferencedModel
+    {
+        get => _referencedModel;
+        set => _referencedModel = value;
     }
 
     #endregion
@@ -33,7 +40,15 @@ public class ClothingButton : MonoBehaviour, IPointerEnterHandler, IPointerClick
             _tweenerArray[i].Execute();
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnPointerClick(PointerEventData eventData) => Select();
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (IsSelected) return;
+        RevertButtonState();
+    }
+
+    public void Select()
     {
         IsSelected = true;
         OnSelected?.Invoke(this);
@@ -44,13 +59,6 @@ public class ClothingButton : MonoBehaviour, IPointerEnterHandler, IPointerClick
         }
     }
 
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        if (IsSelected) return;
-        RevertButtonState();
-    }
-
-    [Button("Deselect")]
     public void Deselect()
     {
         IsSelected = false;
