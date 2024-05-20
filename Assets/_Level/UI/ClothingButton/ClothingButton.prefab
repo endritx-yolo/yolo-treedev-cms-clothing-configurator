@@ -94,7 +94,7 @@ MonoBehaviour:
   _delay: 0
   _isSpeedBased: 1
   _ease: 6
-  _selectedPixelPerUnit: 0.9
+  _selectedPixelPerUnit: 1.1
 --- !u!114 &8909199766166408648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,6 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71324aac9a96784f93e34fe630817aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isSelected: 0
 --- !u!1 &7267182564121379373
 GameObject:
   m_ObjectHideFlags: 0
