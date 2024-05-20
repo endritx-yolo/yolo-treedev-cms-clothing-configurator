@@ -31,6 +31,8 @@ public class UIButtonsController : MonoBehaviour
         {
             _clothingButtonArray[i].OnSelected += SelectNewClothingButton;
             _clothingButtonArray[i].ReferencedModel = _objectInteract.LoadedModels[i];
+            _clothingButtonArray[i].Texture2D = _objectInteract.ClothingModelImporter[i].ClothingTexture;
+            _clothingButtonArray[i].NameText.text = _objectInteract.ClothingModelImporter[i].Name;
         }
     }
 

@@ -421,6 +421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isSelected: 0
+  _rawImage: {fileID: 1924695706517015376}
+  _nameText: {fileID: 4950605784366551066}
 --- !u!1 &7267182564121379373
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,8 +433,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8949889425702164193}
   - component: {fileID: 3111969031715086202}
-  - component: {fileID: 8081617071039487123}
   - component: {fileID: 6975952258680254937}
+  - component: {fileID: 1924695706517015376}
   m_Layer: 5
   m_Name: ClothingImage
   m_TagString: Untagged
@@ -467,36 +469,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7267182564121379373}
   m_CullTransparentMesh: 1
---- !u!114 &8081617071039487123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7267182564121379373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 76bbc2adff3b397498b32808a364569b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &6975952258680254937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,3 +486,30 @@ MonoBehaviour:
   _delay: 0
   _isSpeedBased: 1
   _ease: 6
+--- !u!114 &1924695706517015376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7267182564121379373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1

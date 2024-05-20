@@ -10,6 +10,8 @@ public class ObjectInteract : MonoBehaviour
 
     public List<GameObject> LoadedModels => _loadedModels;
 
+    public ClothingModelImporter[] ClothingModelImporter => _clothingModelImporter;
+
     private void Awake()
     {
         _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
@@ -26,7 +28,7 @@ public class ObjectInteract : MonoBehaviour
         for (int i = 0; i < _modelImporterArray.Length; i++)
             if (!_modelImporterArray[i].IsLoaded)
                 return;
-        foreach (var clothingModel in _clothingModelImporter)
+        foreach (var clothingModel in ClothingModelImporter)
         {
             LoadedModels.Add(clothingModel.LoadedModel);
         }
