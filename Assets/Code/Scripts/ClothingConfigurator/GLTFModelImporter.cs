@@ -6,7 +6,8 @@ using System;
 public class GLTFModelImporter : MonoBehaviour
 {
     public event Action OnLoaded;
-
+    public static event Action<int, int> OnLoadingModels; 
+    
     private GltfImportTask _task;
     private GameObject _model;
 
@@ -53,6 +54,7 @@ public class GLTFModelImporter : MonoBehaviour
     private void OnProgress(GltfImportStep step, int completed, int total)
     {
         Debug.LogFormat("{0}: {1}/{2}", step, completed, total);
+        OnLoadingModels?.Invoke(completed, total);
     }
 
     private void Update()
