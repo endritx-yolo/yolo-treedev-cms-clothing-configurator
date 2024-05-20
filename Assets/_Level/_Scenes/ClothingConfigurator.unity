@@ -286,7 +286,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4031052516671656819, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
   m_PrefabInstance: {fileID: 870210634615456159}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870210634615456160}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ee01e66702087b4798e633ca34c7956, type: 3}
@@ -802,7 +802,7 @@ Transform:
   m_GameObject: {fileID: 1077990706}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9, z: 1}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3281,94 +3281,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8170147203429647664, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
-      propertyPath: field of view
-      value: 15
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2414419508878146929, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 870210634615456162}
-    - targetCorrespondingSourceObject: {fileID: 2414419508878146929, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 870210634615456161}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
---- !u!1 &870210634615456160 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2414419508878146929, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
-  m_PrefabInstance: {fileID: 870210634615456159}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &870210634615456161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870210634615456160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a3b471402792da4fa352bb20f645c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredSelectable: {fileID: 0}
-  requiredMouseButton: -1
-  modify: 0
-  multiplier: -0.1
-  coordinate: 1
-  onDelta:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 870210634615456162}
-        m_TargetAssemblyTypeName: Lean.Touch.LeanPinchCamera, LeanTouchPlus
-        m_MethodName: MultiplyZoom
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &870210634615456162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870210634615456160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 272bc65dbf5cbca45840c32881688950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Use:
-    Filter: 0
-    IgnoreStartedOverGui: 1
-    RequiredFingerCount: 0
-    RequiredMouseButtons: 0
-    RequiredSelectable: {fileID: 0}
-  _camera: {fileID: 0}
-  zoom: 15
-  damping: 5
-  clamp: 1
-  clampMin: 15
-  clampMax: 30
-  relative: 0
-  ignoreZ: 0
-  ScreenDepth:
-    Conversion: 0
-    Camera: {fileID: 0}
-    Object: {fileID: 0}
-    Layers:
-      serializedVersion: 2
-      m_Bits: 0
-    Distance: 0
-  currentZoom: 15
-  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -138,7 +138,9 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
+  - {fileID: 7024556136012788560, guid: f0a5bb2f5728a1e4cb5a7dd51f9de36a, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -666,7 +668,7 @@ PlayerSettings:
     Stadia: UNITY_POST_PROCESSING_STACK_V2;DOTWEEN
     Standalone: UNITY_POST_PROCESSING_STACK_V2;LETAI_TRUESHADOW;BAKERY_INCLUDED;BAKERY_NOREIMPORT;MAGICACLOTH2;DOTWEEN
     VisionOS: UNITY_POST_PROCESSING_STACK_V2;DOTWEEN
-    WebGL: UNITY_POST_PROCESSING_STACK_V2;DOTWEEN
+    WebGL: UNITY_POST_PROCESSING_STACK_V2;DOTWEEN;BAKERY_INCLUDED;BAKERY_NOREIMPORT;LETAI_TRUESHADOW;MAGICACLOTH2
     Windows Store Apps: DOTWEEN
     XboxOne: UNITY_POST_PROCESSING_STACK_V2;DOTWEEN
     iPhone: DOTWEEN

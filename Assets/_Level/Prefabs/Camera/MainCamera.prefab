@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 3784540313783798328}
   - component: {fileID: 6952274840338959829}
   - component: {fileID: 4031052516671656819}
+  - component: {fileID: 6745122171263345620}
+  - component: {fileID: 37633055990014984}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -69,7 +71,7 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 500
-  field of view: 40
+  field of view: 35
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -214,3 +216,71 @@ MonoBehaviour:
   backgroundFill:
     mode: 0
     color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &6745122171263345620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414419508878146929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272bc65dbf5cbca45840c32881688950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  _camera: {fileID: 0}
+  zoom: 35
+  damping: 1.5
+  clamp: 1
+  clampMin: 35
+  clampMax: 55
+  relative: 0
+  ignoreZ: 0
+  ScreenDepth:
+    Conversion: 0
+    Camera: {fileID: 0}
+    Object: {fileID: 0}
+    Layers:
+      serializedVersion: 2
+      m_Bits: 0
+    Distance: 0
+  currentZoom: 35
+  remainingTranslation: {x: 0, y: 0, z: 0}
+--- !u!114 &37633055990014984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414419508878146929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a3b471402792da4fa352bb20f645c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredSelectable: {fileID: 0}
+  requiredMouseButton: -1
+  modify: 0
+  multiplier: -0.1
+  coordinate: 1
+  onDelta:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6745122171263345620}
+        m_TargetAssemblyTypeName: Lean.Touch.LeanPinchCamera, LeanTouchPlus
+        m_MethodName: MultiplyZoom
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
