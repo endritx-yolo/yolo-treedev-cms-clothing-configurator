@@ -1,14 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using NaughtyAttributes;
 using UnityEngine;
 
 public class LoadingScreenCanvasManager : MonoBehaviour
 {
-    
+    [BoxGroup("Loading Screen Panel")]
     [SerializeField] private GameObject loadingScreenCanvas;
     private GLTFModelImporter[] _gltfModelImporter;
+    [BoxGroup("Sliders")]
     [SerializeField] private SliderPresenter sliderPresenter;
+    [BoxGroup("Sliders")]
     [SerializeField] private SliderPresenter highlitedSliderPresenter;
     
     private void Awake()
