@@ -153,7 +153,7 @@ MonoBehaviour:
   temporalAntialiasing:
     jitterSpread: 0.9
     sharpness: 1
-    stationaryBlending: 0.95
+    stationaryBlending: 0.99
     motionBlending: 0.85
   subpixelMorphologicalAntialiasing:
     quality: 2
