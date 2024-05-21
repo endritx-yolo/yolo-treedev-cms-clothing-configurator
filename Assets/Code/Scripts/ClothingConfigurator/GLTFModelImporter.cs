@@ -13,6 +13,8 @@ public class GLTFModelImporter : MonoBehaviour
 
     private bool _isLoaded;
 
+    [SerializeField] private float _currentProgress;
+
     public bool IsLoaded
     {
         get => _isLoaded;
@@ -24,6 +26,12 @@ public class GLTFModelImporter : MonoBehaviour
     }
 
     public GameObject Model => _model;
+
+    public float CurrentProgress
+    {
+        get => _currentProgress;
+        set => _currentProgress = value;
+    }
 
     private Action<GameObject> _cachedCallback;
 
@@ -54,6 +62,9 @@ public class GLTFModelImporter : MonoBehaviour
     private void OnProgress(GltfImportStep step, int completed, int total)
     {
         Debug.LogFormat("{0}: {1}/{2}", step, completed, total);
+        if (step == GltfImportStep.Download)
+            CurrentProgress = completed;
+        
         OnLoadingModels?.Invoke(completed, total);
     }
 
