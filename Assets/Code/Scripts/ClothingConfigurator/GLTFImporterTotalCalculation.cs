@@ -3,18 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GLTFImporterTotalCalculation : MonoBehaviour
+public class GltfImporterTotalCalculation : MonoBehaviour
 {
-
     private GLTFModelImporter[] _modelImporterArray;
-    
     public static event Action<float, float> OnLoadingModels; 
     
     
     private void Awake()
     {
         _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
-        for (int i = 0; i < _modelImporterArray.Length; i++)
+        for (var i = 0; i < _modelImporterArray.Length; i++)
         {
             _modelImporterArray[i].OnLoaded += CalculateTotalProgress;
         }
@@ -26,7 +24,7 @@ public class GLTFImporterTotalCalculation : MonoBehaviour
 
     private void CalculateTotalProgress()
     {
-        for (int i = 0; i < _modelImporterArray.Length; i++)
+        for (var i = 0; i < _modelImporterArray.Length; i++)
         {
             _totalProgress += _modelImporterArray[i].TotalDownload;
             _currentProgress += _modelImporterArray[i].CurrentProgress;
