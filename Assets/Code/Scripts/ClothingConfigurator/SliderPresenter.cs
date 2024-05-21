@@ -16,7 +16,7 @@ public class SliderPresenter : MonoBehaviour
     }
     
     
-    public void UpdateSlider(int currentDownload,int totalDownload)
+    public void UpdateSlider(float currentDownload,float totalDownload)
     {
         _progressSlider.maxValue = totalDownload;
         _progressSlider.value = currentDownload * multiplySlider;

@@ -9,6 +9,7 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     [BoxGroup("Loading Screen Panel")]
     [SerializeField] private GameObject loadingScreenCanvas;
     private GLTFModelImporter[] _gltfModelImporter;
+    private GLTFImporterTotalCalculation[] _gltfImpoorterTotalCalculations;
     [BoxGroup("Sliders")]
     [SerializeField] private SliderPresenter sliderPresenter;
     [BoxGroup("Sliders")]
@@ -16,6 +17,7 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     
     private void Awake()
     {
+        _gltfImpoorterTotalCalculations = FindObjectsOfType<GLTFImporterTotalCalculation>();
         _gltfModelImporter = FindObjectsOfType<GLTFModelImporter>();
         foreach (var model in _gltfModelImporter)
         {
@@ -25,15 +27,15 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     
     private void OnEnable()
     {
-        GLTFModelImporter.OnLoadingModels += GLTFModelImporterOnOnLoadingModels;
+        GLTFImporterTotalCalculation.OnLoadingModels += GLTFModelImporterOnOnLoadingModels;
     }
     
     private void OnDisable()
     {
-        GLTFModelImporter.OnLoadingModels -= GLTFModelImporterOnOnLoadingModels;
+        GLTFImporterTotalCalculation.OnLoadingModels -= GLTFModelImporterOnOnLoadingModels;
     }
     
-    private void GLTFModelImporterOnOnLoadingModels(int currentDownload, int totalDownload)
+    private void GLTFModelImporterOnOnLoadingModels(float currentDownload, float totalDownload)
     {
         loadingScreenCanvas.SetActive(true);
         sliderPresenter.UpdateSlider(currentDownload, totalDownload);

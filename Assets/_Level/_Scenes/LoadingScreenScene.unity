@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.061146002, g: 0.07260181, b: 0.082671665, a: 1}
+  m_IndirectSpecularColor: {r: 0.06114403, g: 0.07260105, b: 0.082671665, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -558,6 +558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b81ee2b4004bf49bde9626cefb181e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentProgress: 0
+  _totalDownload: 0
 --- !u!114 &830291347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,6 +727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b81ee2b4004bf49bde9626cefb181e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentProgress: 0
+  _totalDownload: 0
 --- !u!114 &961085777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1178,6 +1182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b81ee2b4004bf49bde9626cefb181e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentProgress: 0
+  _totalDownload: 0
 --- !u!114 &1307556738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1253,6 +1259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b81ee2b4004bf49bde9626cefb181e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentProgress: 0
+  _totalDownload: 0
 --- !u!114 &1371064944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1403,6 +1411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b81ee2b4004bf49bde9626cefb181e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentProgress: 0
+  _totalDownload: 0
 --- !u!114 &1452398479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,6 +1563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b81ee2b4004bf49bde9626cefb181e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentProgress: 0
+  _totalDownload: 0
 --- !u!114 &1631371122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1810,6 +1822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1812042908}
   - component: {fileID: 1812042906}
+  - component: {fileID: 1812042909}
   m_Layer: 0
   m_Name: Model Configurator
   m_TagString: Untagged
@@ -1851,6 +1864,18 @@ Transform:
   - {fileID: 1307556735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1812042909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812042904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78c7e45a521d4740b424364f792fe15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1938985773
 GameObject:
   m_ObjectHideFlags: 0
