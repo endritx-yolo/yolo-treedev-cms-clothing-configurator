@@ -1,17 +1,18 @@
 using System;
+using System.Collections.Generic;
 using NaughtyAttributes;
 using UnityEngine;
 
 public class ClothingModelImporter : MonoBehaviour
 {
     public event Action OnActionComplete;
-    
+
     [SerializeField] private uint _clothingAssetId;
 
     [SerializeField] private GameObject _loadedModel;
     [SerializeField] private Texture2D _clothingTexture;
     [SerializeField] private string _name;
-    
+
     private GLTFModelImporter _gltfImporter;
 
     public GameObject LoadedModel => _loadedModel;
@@ -30,7 +31,7 @@ public class ClothingModelImporter : MonoBehaviour
     private void OnGetAssetModel(ShowroomAssetModel assetModel)
     {
         _gltfImporter.ImportModelWithName(assetModel.Object, GetModelReference);
-        
+
         string imageName = assetModel.FileName;
         _name = assetModel.Name;
         TextureLoaderManager textureLoaderManager = new TextureLoaderManager(imageName);
@@ -40,7 +41,14 @@ public class ClothingModelImporter : MonoBehaviour
     private void GetModelReference(GameObject model)
     {
         _loadedModel = _gltfImporter.Model;
-       OnActionComplete?.Invoke();
+        Transform _loadedModelTransform = _loadedModel.transform;
+
+        int layerNumber = LayerMask.NameToLayer("Inspection");
+
+        foreach (Transform child in _loadedModelTransform)
+            child.gameObject.layer = layerNumber;
+
+        OnActionComplete?.Invoke();
     }
 
     private void OnLoadTexture(Texture2D loadedTexture)
