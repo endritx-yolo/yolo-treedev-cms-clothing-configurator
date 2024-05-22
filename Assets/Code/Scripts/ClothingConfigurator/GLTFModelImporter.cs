@@ -6,7 +6,7 @@ using System;
 public class GLTFModelImporter : MonoBehaviour
 {
     public event Action OnLoaded;
-    public static event Action<int, int> OnLoadingModels; 
+    
     
     private GltfImportTask _task;
     private GameObject _model;
@@ -14,6 +14,7 @@ public class GLTFModelImporter : MonoBehaviour
     private bool _isLoaded;
 
     [SerializeField] private float _currentProgress;
+    [SerializeField] private float _totalDownload;
 
     public bool IsLoaded
     {
@@ -30,7 +31,13 @@ public class GLTFModelImporter : MonoBehaviour
     public float CurrentProgress
     {
         get => _currentProgress;
-        set => _currentProgress = value;
+        private set => _currentProgress = value;
+    }
+
+    public float TotalDownload
+    {
+        get => _totalDownload;
+        private set => _totalDownload = value;
     }
 
     private Action<GameObject> _cachedCallback;
@@ -62,10 +69,9 @@ public class GLTFModelImporter : MonoBehaviour
     private void OnProgress(GltfImportStep step, int completed, int total)
     {
         Debug.LogFormat("{0}: {1}/{2}", step, completed, total);
-        if (step == GltfImportStep.Download)
-            CurrentProgress = completed;
-        
-        OnLoadingModels?.Invoke(completed, total);
+        if (step != GltfImportStep.Download) return;
+        CurrentProgress = completed;
+        TotalDownload = total;
     }
 
     private void Update()
