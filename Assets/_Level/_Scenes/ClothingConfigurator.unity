@@ -23,10 +23,10 @@ RenderSettings:
   m_AmbientSkyColor: {r: 1.617973, g: 1.7324523, b: 1.9766746, a: 1.08}
   m_AmbientEquatorColor: {r: 1.0592737, g: 1.0592737, b: 1.0592737, a: 1.08}
   m_AmbientGroundColor: {r: 1.0592737, g: 0.998542, b: 0.8770786, a: 1.08}
-  m_AmbientIntensity: 0.75
+  m_AmbientIntensity: 0.9
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7a62746e0f8e0674e8d1701326ca101f, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e4b66b22acf89fa42869e160bf4c8b04, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.35
   m_CustomReflection: {fileID: 8900000, guid: fb4ee1b7e8d3a1d44bde33e67b5ff68d, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04281494, g: 0.04223075, b: 0.03760119, a: 0.35}
+  m_IndirectSpecularColor: {r: 0.054736372, g: 0.06442739, b: 0.07523605, a: 0.35}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1161,6 +1161,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+      propertyPath: m_Intensity
+      value: 1.8818972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 0.9409486
+      objectReference: {fileID: 0}
     - target: {fileID: 2317013501169572098, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.557133
@@ -1204,8 +1212,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1840317399702330642, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1581353046}
+    - targetCorrespondingSourceObject: {fileID: 1840317399702330642, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1581353045}
   m_SourcePrefab: {fileID: 100100000, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+--- !u!1 &1581353044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1840317399702330642, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+  m_PrefabInstance: {fileID: 1581353043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1581353045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581353044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f07a9a11c313b48b82d2f4f8ead64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1581353046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581353044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd543c84a5b59c541b325244b881a706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationsPerHour: 1
+  automaticLightIntensity: 1
+  maximumLightIntensity: 2
 --- !u!114 &1833759544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,7 +1404,7 @@ MonoBehaviour:
   renderSettingsRTPVHDR: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 87
+  lastBakeTime: 99
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   uniqueLights:
@@ -1468,13 +1514,33 @@ MonoBehaviour:
   lightmapHasRNM: 0101010101
   modifiedAssetPathList: []
   modifiedAssets: []
-  maps: []
+  maps:
+  - {fileID: 2800000, guid: a22d48e1b72b9b34ba1464f45f1f9033, type: 3}
+  - {fileID: 2800000, guid: 3f56756b9780b36419e6a8dd6d2dd4e1, type: 3}
+  - {fileID: 2800000, guid: dfa29ebdeb3dae042986dc0e22b6c75f, type: 3}
+  - {fileID: 2800000, guid: defa27fe75575994ab14609e2472feee, type: 3}
+  - {fileID: 2800000, guid: cc3e0f1959cdb674bb8eef2ed30286d2, type: 3}
   masks: []
   dirMaps: []
-  rnmMaps0: []
-  rnmMaps1: []
-  rnmMaps2: []
-  mapsMode: 
+  rnmMaps0:
+  - {fileID: 2800000, guid: 6e136eb772cffd9439efb72328ff8dc6, type: 3}
+  - {fileID: 2800000, guid: d6176a24f2a723d4c8604b4d4044cbf8, type: 3}
+  - {fileID: 2800000, guid: 727ffe607d941c642bc9c13e564b1f67, type: 3}
+  - {fileID: 2800000, guid: e6e2fa94f8f487542bd5f6d5de1d3c65, type: 3}
+  - {fileID: 2800000, guid: 4d6567c54c04d3c49850b14bd4cf3e7c, type: 3}
+  rnmMaps1:
+  - {fileID: 2800000, guid: c235e07f81a78fa40919b77f19bf3a0a, type: 3}
+  - {fileID: 2800000, guid: 5580ead6d6cc63c4fbb98cd44dca23dd, type: 3}
+  - {fileID: 2800000, guid: c2aa0eb11f7558a4292002b90a85f81b, type: 3}
+  - {fileID: 2800000, guid: 128b6c89a9800214c9fbdcdc998f853b, type: 3}
+  - {fileID: 2800000, guid: a9237acc01d756341ac2b1f1e0ba1391, type: 3}
+  rnmMaps2:
+  - {fileID: 2800000, guid: 3d184b84a69c75944aac4cb6fd955d71, type: 3}
+  - {fileID: 2800000, guid: 06bba7af99786e542bf69438299bc0e0, type: 3}
+  - {fileID: 2800000, guid: 8c9a79817caf2fd498f86e64a6bfa45c, type: 3}
+  - {fileID: 2800000, guid: 89d59f99bafcfef4ab3ec3c9865cba73, type: 3}
+  - {fileID: 2800000, guid: a30a19f027ebc9842b9d88b77bc0a84f, type: 3}
+  mapsMode: 0300000003000000030000000300000003000000
   bakedRenderers:
   - {fileID: 2440430430336727969}
   - {fileID: 3903682380048959201}
