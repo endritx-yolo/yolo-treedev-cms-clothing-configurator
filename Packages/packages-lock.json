@@ -16,14 +16,6 @@
       "dependencies": {},
       "hash": "093baf4e09c2cd21c284303a977ec112a43041a7"
     },
-    "com.occasoftware.super-simple-skybox": {
-      "version": "file:com.occasoftware.super-simple-skybox",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {
-        "com.unity.shadergraph": "14.0.7"
-      }
-    },
     "com.soupday.cc3_unity_tools": {
       "version": "file:C:/Users/yoloway-DB/Downloads/cc_unity_tools_3D-1.6.2",
       "depth": 0,
