@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+using System.Collections;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -24,6 +24,12 @@ public class ClothingModelImporter : MonoBehaviour
     [Button]
     private void Start()
     {
+        StartCoroutine(DelayedStart());
+    }
+
+    private IEnumerator DelayedStart()
+    {
+        yield return new WaitForSeconds(1f);
         _gltfImporter = GetComponent<GLTFModelImporter>();
         ShowroomAssetController.GetById(_clothingAssetId, OnGetAssetModel);
     }
