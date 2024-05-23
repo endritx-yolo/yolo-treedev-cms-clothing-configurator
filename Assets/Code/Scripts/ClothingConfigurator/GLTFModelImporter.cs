@@ -6,6 +6,7 @@ using System;
 public class GLTFModelImporter : MonoBehaviour
 {
     public event Action OnLoaded;
+
     
     
     private GltfImportTask _task;
@@ -42,6 +43,8 @@ public class GLTFModelImporter : MonoBehaviour
 
     private Action<GameObject> _cachedCallback;
 
+    
+    
     public void ImportModelWithName(string fileName, Action<GameObject> callback)
     {
         string requestUri = UriUtil.FormatUriUploads(fileName);

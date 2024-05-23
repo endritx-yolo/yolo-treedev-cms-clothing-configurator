@@ -10,8 +10,6 @@ public class LoadSceneManager : MonoBehaviour
     [SerializeField] private GameObject mainCamera;
     
 
-   
-
     private void Awake()
     {
         mainCamera.SetActive(true);
@@ -29,8 +27,8 @@ public class LoadSceneManager : MonoBehaviour
         for (int i = 0; i < _modelImporterArray.Length; i++)
             if (!_modelImporterArray[i].IsLoaded)
                 return;
-
         mainCamera.SetActive(false);
         SceneManager.LoadSceneAsync(sceneToLoadName, LoadSceneMode.Additive);
+        
     }
 }
