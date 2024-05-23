@@ -32016,46 +32016,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Directional light
       objectReference: {fileID: 0}
-    - target: {fileID: 1840317399702330642, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1840317399702330642, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Intensity
-      value: 0.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Lightmapping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Shadows.m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 131072
-      objectReference: {fileID: 0}
-    - target: {fileID: 2110780916874353785, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
-      propertyPath: m_Shadows.m_Strength
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2317013501169572098, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
