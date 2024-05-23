@@ -10532,7 +10532,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4031052516671656819, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
   m_PrefabInstance: {fileID: 870210634615456159}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870210634615456160}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ee01e66702087b4798e633ca34c7956, type: 3}
@@ -11645,7 +11645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &785155637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26570,7 +26570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1379115368
 Transform:
   m_ObjectHideFlags: 0
@@ -26613,7 +26613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1408237916
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32101,6 +32101,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+--- !u!4 &1581353044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317013501169572098, guid: 422cdf0a92db0f14ba302c73db34fccf, type: 3}
+  m_PrefabInstance: {fileID: 1581353043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1624945189
 GameObject:
   m_ObjectHideFlags: 0
@@ -42899,7 +42904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1981104232
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43228,7 +43233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &2055134097
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43437,7 +43442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1001 &870210634615456159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43449,6 +43454,18 @@ PrefabInstance:
     - target: {fileID: 2414419508878146929, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
       propertyPath: m_Name
       value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577172491621663109, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
+      propertyPath: Light
+      value: 
+      objectReference: {fileID: 1581353044}
+    - target: {fileID: 2577172491621663109, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
+      propertyPath: LateCutPower
+      value: 2.775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577172491621663109, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
+      propertyPath: LateCutThreshohld
+      value: 0.245
       objectReference: {fileID: 0}
     - target: {fileID: 6748805679984797777, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43501,73 +43518,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2414419508878146929, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 870210634615456161}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
---- !u!1 &870210634615456160 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2414419508878146929, guid: 26bbf7b29f141834794d2546afb74e80, type: 3}
-  m_PrefabInstance: {fileID: 870210634615456159}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &870210634615456161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870210634615456160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fee76f5c3ca2d994abac24ddcc0ef49c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CloudsMask:
-    serializedVersion: 2
-    m_Bits: 256
-  LightMask:
-    serializedVersion: 2
-    m_Bits: 512
-  WorldBlockingMask:
-    serializedVersion: 2
-    m_Bits: 247
-  ResolutionDivider: 4
-  WorldDepthResolutionDivider: 2
-  DepthPrecision: 5
-  LateCut: 1
-  BlurRadius: 18.2
-  BlurQuality: 5
-  LateCutThreshohld: 0
-  LateCutPower: 1.526
-  UseDepthFiltering: 0
-  DepthFilteringPower: 0
-  UseNoise: 1
-  Noise: {fileID: 2800000, guid: ea4ad7e4f21a143478fefc813c9174ab, type: 3}
-  Wind: {x: -3, y: -0.666, z: -0.666}
-  NoiseScale: 4
-  DepthNoiseScale: 5
-  NormalNoisePower: 2.58
-  DepthNoisePower: 0.41
-  DisplacementNoisePower: 2.45
-  NoiseSinTimeScale: 0.138
-  DistanceToClouds: 1
-  Light: {fileID: 0}
-  UseRamp: 0
-  Ramp: {fileID: 2800000, guid: 79fc49341c0fd58439c6651b208e6370, type: 3}
-  LightColor: {r: 1, g: 0.97302234, b: 0.8602941, a: 1}
-  ShadowColor: {r: 0.60110295, g: 0.6904412, b: 0.75, a: 1}
-  LightEnd: 0.664
-  HaloPower: 3.39
-  HaloDistance: 0.54
-  FallbackDistance: 0.58
-  blurFastShader: {fileID: 4800000, guid: 7ab901123de490e4bad21fdb835edd20, type: 3}
-  blurShader: {fileID: 4800000, guid: fd4453f270eb2734b886efe5223588ce, type: 3}
-  blurHQShader: {fileID: 4800000, guid: 22d75b161fbf2d14b9cd656fde6d05bd, type: 3}
-  depthBlurShader: {fileID: 4800000, guid: 86ffe5743a2c74741be2ae7d00c19d9b, type: 3}
-  depthShader: {fileID: 4800000, guid: 009f6c8cf8d3c144792d6321909e830c, type: 3}
-  cloudShader: {fileID: 4800000, guid: ddd68a53b8f487941ac09b4480974963, type: 3}
-  clearColorShader: {fileID: 4800000, guid: e8f3ce2cbe4971147b1b7f04b791e52a, type: 3}
 --- !u!1 &919132147765415344
 GameObject:
   m_ObjectHideFlags: 0
@@ -43583,7 +43535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &919132149359189339
 GameObject:
   m_ObjectHideFlags: 0
@@ -43599,7 +43551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &935315770017267858
 Transform:
   m_ObjectHideFlags: 0
