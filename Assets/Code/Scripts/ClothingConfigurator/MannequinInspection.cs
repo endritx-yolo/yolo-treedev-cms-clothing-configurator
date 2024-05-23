@@ -1,9 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Engines;
 using StarterAssets;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
