@@ -7115,3 +7115,1162 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
+2024-5-23
+Rendering UV GBuffer for LoadingScreenScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX skysh "D:/GICache" "light_1_3" 1924 0 3 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_4" 1924 0 4 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA30.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA10.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA40.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA20.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA50.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM00.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA31.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA11.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA41.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA21.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA51.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM01.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA32.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA12.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA42.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA22.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA52.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM02.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA33.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA13.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA43.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA23.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA53.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM03.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA3_final" 1924 16 3 "gi_LoadingScreenScene_LMA34.bin" "LoadingScreenScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA1_final" 1924 16 1 "gi_LoadingScreenScene_LMA14.bin" "LoadingScreenScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA4_final" 1924 16 4 "gi_LoadingScreenScene_LMA44.bin" "LoadingScreenScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA2_final" 1924 16 2 "gi_LoadingScreenScene_LMA24.bin" "LoadingScreenScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA5_final" 1924 16 5 "gi_LoadingScreenScene_LMA54.bin" "LoadingScreenScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LM0_final" 1924 16 0 "gi_LoadingScreenScene_LM04.bin" "LoadingScreenScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA3_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA3_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA3_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA3_final_L1z.lz4" 2048 0
+Running seamfixer "D:/GICache" "3" "LoadingScreenScene_LMA3_final_L0.lz4" "LoadingScreenScene_LMA3_final_L1x.lz4" "LoadingScreenScene_LMA3_final_L1y.lz4" "LoadingScreenScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA1_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA1_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA1_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA1_final_L1z.lz4" 2048 0
+Running seamfixer "D:/GICache" "1" "LoadingScreenScene_LMA1_final_L0.lz4" "LoadingScreenScene_LMA1_final_L1x.lz4" "LoadingScreenScene_LMA1_final_L1y.lz4" "LoadingScreenScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA4_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA4_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA4_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA4_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "4" "LoadingScreenScene_LMA4_final_L0.lz4" "LoadingScreenScene_LMA4_final_L1x.lz4" "LoadingScreenScene_LMA4_final_L1y.lz4" "LoadingScreenScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA2_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA2_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA2_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA2_final_L1z.lz4" 2048 0
+Running seamfixer "D:/GICache" "2" "LoadingScreenScene_LMA2_final_L0.lz4" "LoadingScreenScene_LMA2_final_L1x.lz4" "LoadingScreenScene_LMA2_final_L1y.lz4" "LoadingScreenScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA5_final_" 4 0 5 shcomp_5.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA5_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA5_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA5_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA5_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "5" "LoadingScreenScene_LMA5_final_L0.lz4" "LoadingScreenScene_LMA5_final_L1x.lz4" "LoadingScreenScene_LMA5_final_L1y.lz4" "LoadingScreenScene_LMA5_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LM0_final_L0.lz4" "D:/GICache/LoadingScreenScene_LM0_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LM0_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LM0_final_L1z.lz4" 2048 0
+Running seamfixer "D:/GICache" "0" "LoadingScreenScene_LM0_final_L0.lz4" "LoadingScreenScene_LM0_final_L1x.lz4" "LoadingScreenScene_LM0_final_L1y.lz4" "LoadingScreenScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA3_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA3_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA3_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA3_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA1_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA1_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA1_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA1_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA4_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA4_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA4_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA4_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA2_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA2_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA2_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA2_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA5_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA5_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA5_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA5_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LM0_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LM0_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LM0_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LM0_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L1z.tga" 
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[1186/1190  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1187/1190  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1188/1190  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 66143856 bytes (64 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 66143856 bytes (64 MiB)
+
+
+Files read from disk: 1
+Archive size: 45358000 bytes (44 MiB)
+Everything is Ok
+[1189/1190  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (5.23 seconds), 4 items updated, 1190 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[ 227/1190  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[BUSY       6s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+[ 228/1190 15s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\12273673280786951594.rsp
+*** Tundra requires additional run (16.12 seconds), 2 items updated, 1190 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/WebGL/ManagedStripped
+Finished compiling graph: 1192 nodes, 3348 flattened edges (3330 ToBuild, 17 ToUse), maximum node priority 972
+[ 229/1190  0s] CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json
+[ 232/1190  0s] ClassRegistrationGenerator D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp
+[BUSY       6s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[BUSY      16s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[BUSY      26s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[ 234/1190 28s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\11933136959178028744.rsp
+[ 235/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Reflection.Metadata.dll-resources.dat
+[ 236/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Microsoft.CodeAnalysis.CSharp.dll-resources.dat
+[ 237/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat
+[ 238/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Microsoft.CodeAnalysis.dll-resources.dat
+[ 239/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Newtonsoft.Json.dll-resources.dat
+[ 240/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Collections.Immutable.dll-resources.dat
+[ 241/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Piglet.Newtonsoft.Json.dll-resources.dat
+[ 244/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Data.dll-resources.dat
+[1172/1190  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat
+[1175/1190  0s] CopyFiles Temp/EditorBuildOutput/MethodMap.tsv
+[BUSY       6s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1187/1190 12s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1188/1190  4s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 66138105 bytes (64 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 66138105 bytes (64 MiB)
+
+
+Files read from disk: 1
+Archive size: 45350651 bytes (44 MiB)
+Everything is Ok
+[BUSY       6s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+[1189/1190  9s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (58.71 seconds), 16 items updated, 1190 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Rebuilding DAG because directory contents changed: Assets/StreamingAssets
+*** Tundra requires additional run (0.07 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1184 nodes, 3332 flattened edges (3314 ToBuild, 17 ToUse), maximum node priority 972
+[           0s] Delete 3 artifact files that are no longer in use. (like Builds\WebGL\StreamingAssets)
+[ 204/1182  0s] CopyFiles Builds/WebGL/TemplateData/progress-bar-empty-light.png
+[ 205/1182  0s] CopyFiles Builds/WebGL/TemplateData/webgl-logo.png
+[ 206/1182  0s] CopyFiles Builds/WebGL/TemplateData/progress-bar-full-dark.png
+[ 207/1182  0s] CopyFiles Builds/WebGL/TemplateData/unity-logo-dark.png
+[ 208/1182  0s] CopyFiles Builds/WebGL/TemplateData/progress-bar-empty-dark.png
+[ 209/1182  0s] CopyFiles Builds/WebGL/TemplateData/fullscreen-button.png
+[ 210/1182  0s] CopyFiles Builds/WebGL/TemplateData/MemoryProfiler.png
+[ 211/1182  0s] CopyFiles Builds/WebGL/TemplateData/unity-logo-light.png
+[ 212/1182  0s] CopyFiles Builds/WebGL/TemplateData/progress-bar-full-light.png
+[ 213/1182  0s] CopyFiles Builds/WebGL/StreamingAssets/UnityServicesProjectConfiguration.json
+[ 214/1182  0s] CopyFiles Builds/WebGL/TemplateData/webmemd-icon.png
+[ 215/1182  0s] CopyFiles Builds/WebGL/TemplateData/favicon.ico
+[ 216/1182  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[ 217/1182  0s] PreprocessJS Builds/WebGL/index.html
+[ 218/1182  0s] PreprocessJS Builds/WebGL/TemplateData/style.css
+[ 219/1182  0s] PreprocessJS Builds/WebGL/Build/WebGL.loader.js
+[BUSY       6s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+[ 220/1182 14s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\12273673280786951594.rsp
+[ 221/1182  0s] CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json
+[ 224/1182  0s] ClassRegistrationGenerator D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp
+[BUSY       6s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[BUSY      16s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[ 226/1182 21s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\11933136959178028744.rsp
+[ 227/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Reflection.Metadata.dll-resources.dat
+[ 228/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Collections.Immutable.dll-resources.dat
+[ 229/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Data.dll-resources.dat
+[ 230/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Newtonsoft.Json.dll-resources.dat
+[ 231/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Microsoft.CodeAnalysis.dll-resources.dat
+[ 232/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Piglet.Newtonsoft.Json.dll-resources.dat
+[ 233/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat
+[ 234/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Microsoft.CodeAnalysis.CSharp.dll-resources.dat
+[1165/1182  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat
+[1167/1182  0s] CopyFiles Temp/EditorBuildOutput/MethodMap.tsv
+[1177/1182  1s] GzipMarker Builds/WebGL/Build/WebGL.framework.js.gz
+[1178/1182  3s] GzipMarker Builds/WebGL/Build/WebGL.wasm.gz
+[BUSY       9s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1179/1182 13s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1180/1182  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 60910479 bytes (59 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 60910479 bytes (59 MiB)
+
+
+Files read from disk: 1
+Archive size: 41525534 bytes (40 MiB)
+Everything is Ok
+[BUSY       6s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+[1181/1182 11s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (66.04 seconds - 0:01:06), 35 items updated, 1182 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality leSymbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[1178/1182  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1179/1182  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1180/1182  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207667 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207667 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32676459 bytes (32 MiB)
+Everything is Ok
+[1181/1182  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (4.11 seconds), 4 items updated, 1182 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[1178/1182  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1179/1182  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1180/1182  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207658 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207658 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32674867 bytes (32 MiB)
+Everything is Ok
+[1181/1182  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (4.59 seconds), 4 items updated, 1182 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[1178/1182  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1179/1182  1s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1180/1182  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207686 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207686 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673917 bytes (32 MiB)
+Everything is Ok
+[1181/1182  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (5.36 seconds), 4 items updated, 1182 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Playerf20f6bd5-inputdata.json
+*** Tundra requires additional run (0.07 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1176 nodes, 3316 flattened edges (3298 ToBuild, 17 ToUse), maximum node priority 972
+[           0s] Delete 12 artifact files that are no longer in use. (like Builds\WebGL\TemplateData\progress-bar-empty-light.png)
+[ 205/1174  0s] CopyFiles Builds/WebGL/TemplateData/favicon.ico
+[ 206/1174  0s] CopyFiles Builds/WebGL/logo.png
+[ 207/1174  0s] CopyFiles Builds/WebGL/TemplateData/fullscreen-button.png
+[1167/1174  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1168/1174  0s] PreprocessJS Builds/WebGL/TemplateData/style.css
+[1169/1174  0s] PreprocessJS Builds/WebGL/index.html
+[1170/1174  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1171/1174  0s] PreprocessJS Builds/WebGL/Build/WebGL.loader.js
+[1172/1174  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207532 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207532 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673828 bytes (32 MiB)
+Everything is Ok
+[1173/1174  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (4.10 seconds), 10 items updated, 1174 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[1170/1174  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1171/1174  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1172/1174  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207532 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207532 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673826 bytes (32 MiB)
+Everything is Ok
+[1173/1174  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (3.91 seconds), 4 items updated, 1174 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[1170/1174  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1171/1174  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1172/1174  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207530 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207530 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673653 bytes (32 MiB)
+Everything is Ok
+[1173/1174  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (3.96 seconds), 4 items updated, 1174 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Playerf20f6bd5-inputdata.json
+*** Tundra requires additional run (0.07 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1177 nodes, 3318 flattened edges (3300 ToBuild, 17 ToUse), maximum node priority 972
+[ 205/1175  0s] CopyFiles Builds/WebGL/logo.png
+[ 206/1175  0s] CopyFiles Builds/WebGL/TemplateData/fullscreen-button.png
+[ 207/1175  0s] CopyFiles Builds/WebGL/logo-backup.png
+[1168/1175  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1169/1175  0s] PreprocessJS Builds/WebGL/TemplateData/style.css
+[1170/1175  0s] PreprocessJS Builds/WebGL/index.html
+[1171/1175  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1172/1175  0s] PreprocessJS Builds/WebGL/Build/WebGL.loader.js
+[1173/1175  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50207532 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50207532 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673828 bytes (32 MiB)
+Everything is Ok
+[1174/1175  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (4.34 seconds), 10 items updated, 1175 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Rebuilding DAG because directory contents changed: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/WebGLTemplates/Better2020
+*** Tundra requires additional run (0.08 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1178 nodes, 3320 flattened edges (3302 ToBuild, 17 ToUse), maximum node priority 972
+[ 212/1176  0s] CopyFiles Builds/WebGL/logo (2).png
+[1172/1176  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1173/1176  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1174/1176  3s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50215946 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50215946 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673201 bytes (32 MiB)
+Everything is Ok
+[1175/1176  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+*** Tundra build success (4.08 seconds), 5 items updated, 1176 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[ 213/1176  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[BUSY       6s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+[BUSY      16s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+[ 214/1176 23s] UnityLinker D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/unitylinker_ber2.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\12273673280786951594.rsp
+[BUSY       6s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[BUSY      16s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[BUSY      26s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+[ 220/1176 33s] IL2CPP_CodeGen D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/il2cpp_conv_17nx.traceevents
+D:\Unity Editors\2022.3.17f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\11933136959178028744.rsp
+[ 221/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Data.dll-resources.dat
+[ 222/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Collections.Immutable.dll-resources.dat
+[ 223/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat
+[ 224/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/System.Reflection.Metadata.dll-resources.dat
+[ 225/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Microsoft.CodeAnalysis.dll-resources.dat
+[ 234/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Microsoft.CodeAnalysis.CSharp.dll-resources.dat
+[ 236/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Newtonsoft.Json.dll-resources.dat
+[ 247/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/Piglet.Newtonsoft.Json.dll-resources.dat
+[BUSY       6s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5nqhnp0sjy6j.o
+[BUSY      11s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ncx7e0vmwy89.o
+[BUSY      16s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5nqhnp0sjy6j.o
+[BUSY      21s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ncx7e0vmwy89.o
+[ 775/1176 23s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ncx7e0vmwy89.o
+[ 916/1176 28s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5nqhnp0sjy6j.o
+[ 925/1176  0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5gmv5x7f9zkl.o
+[ 949/1176  0s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jwry63pr7hsz.o
+[1038/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pseyf3zylogo.o
+[1052/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d42ig1ggaekk.o
+[1056/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ipn5z4q5bac6.o
+[1090/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jx7lkk73fctl.o
+[1093/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x9jhkvc88l0m.o
+[1151/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4cba0tl1i044.o
+[1155/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat
+[1156/1176 32s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lw27o371poet.o
+[1157/1176  0s] CopyFiles Temp/EditorBuildOutput/MethodMap.tsv
+[1158/1176 33s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/veecqvlwtqmz.o
+[1159/1176  9s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u6tv5f5xpo5j.o
+[1160/1176 35s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lcuwz9cavcp4.o
+[1161/1176  5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jclvm1bne98v.o
+[1162/1176 37s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yqonhfe1ereh.o
+[1163/1176  4s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1164/1176  5s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j6rbxosyhfq0.o
+[1165/1176  4s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 50216582 bytes (48 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 50216582 bytes (48 MiB)
+
+
+Files read from disk: 1
+Archive size: 32673303 bytes (32 MiB)
+Everything is Ok
+[1166/1176  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+[1167/1176 12s] C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/db0v1ocro568.o
+[BUSY       6s] Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+[BUSY      16s] Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+[BUSY      26s] Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+[BUSY      36s] Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+[1168/1176 45s] Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+[1169/1176  0s] CopyFiles D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a
+[BUSY       6s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      16s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      26s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      36s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      46s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      56s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      66s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      76s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[1170/1176 84s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+##### CommandLine
+"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat" @"Library\Bee\artifacts\rsp\8995565923215908413.rsp"
+##### Contents of Library\Bee\artifacts\rsp\8995565923215908413.rsp
+-s "EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']" --output_eol linux --memory-init-file 0 -s WASM=1 -O2 -g0 -s EXIT_RUNTIME=0 -s "ALLOW_MEMORY_GROWTH=1" -s "ASSERTIONS=0" -s "DISABLE_EXCEPTION_CATCHING=0" -s "DYNCALLS=1" -s "EXPORT_NAME=unityFramework" -s "FULL_ES3=1" -s "GL_EXPLICIT_UNIFORM_BINDING=1" -s "GL_EXPLICIT_UNIFORM_LOCATION=1" -s "INITIAL_MEMORY=33554432" -s "MAXIMUM_MEMORY=2147483648" -s "MAX_WEBGL_VERSION=2" -s "MEMORY_GROWTH_GEOMETRIC_CAP=100663296" -s "MEMORY_GROWTH_GEOMETRIC_STEP=0.2" -s "MODULARIZE=1" -o "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1354245_patch_library_html5_firefox_touchevents.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_plat_4600_guard_js_exceptions.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ContextMenu.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/MobileKeyboard.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/uum-34043-patch_emscripten_19226.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/webmemd.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ContentLoadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PropertiesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a" --js-library "Assets/_ImportedAssets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib" --js-library "Assets/_ImportedAssets/TriLib/TriLibSamples/Common/Plugins/PasteManagerPlugin.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Examples/Helpers/Plugins/WebGL/OpenWindow.jslib" --js-library "Assets/Src/Framework/Piglet/Plugins/WebGL/Piglet.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebRequest.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebSocket.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_EventSource.jslib" --js-library "Library/PackageCache/com.unity.analytics@3.8.1/Plugins/WindowUtil.jslib" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracoenc_unity.a" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracodec_unity.a" -lidbfs.js 
+##### Custom Environment Variables
+EM_CONFIG=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\.emscripten
+EMSDK_PYTHON=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\python.exe
+EMCC_SKIP_SANITY_CHECK=1
+EM_FROZEN_CACHE=1
+EM_WORKAROUND_PYTHON_BUG_34780=1
+EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG=1
+##### ExitCode
+1
+##### Output
+error: undefined symbol: _ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ (referenced by top-level compiled C/C++ code)
+warning: Link with `-s LLD_REPORT_UNDEFINED` to get more information on undefined symbols
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+warning: __ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ may need to be added to EXPORTED_FUNCTIONS if it arrives from a system library
+Error: Aborting compilation due to previous errors
+emcc: error: '"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe" "D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\src\compiler.js" C:\Users\YOLOWA~1\AppData\Local\Temp\tmpx2enbj1l.json' failed (returned 1)
+*** Tundra build failed (233.29 seconds - 0:03:53), 37 items updated, 1170 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[BUSY       6s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      16s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      26s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      36s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      46s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      56s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[1170/1176 61s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+##### CommandLine
+"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat" @"Library\Bee\artifacts\rsp\8995565923215908413.rsp"
+##### Contents of Library\Bee\artifacts\rsp\8995565923215908413.rsp
+-s "EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']" --output_eol linux --memory-init-file 0 -s WASM=1 -O2 -g0 -s EXIT_RUNTIME=0 -s "ALLOW_MEMORY_GROWTH=1" -s "ASSERTIONS=0" -s "DISABLE_EXCEPTION_CATCHING=0" -s "DYNCALLS=1" -s "EXPORT_NAME=unityFramework" -s "FULL_ES3=1" -s "GL_EXPLICIT_UNIFORM_BINDING=1" -s "GL_EXPLICIT_UNIFORM_LOCATION=1" -s "INITIAL_MEMORY=33554432" -s "MAXIMUM_MEMORY=2147483648" -s "MAX_WEBGL_VERSION=2" -s "MEMORY_GROWTH_GEOMETRIC_CAP=100663296" -s "MEMORY_GROWTH_GEOMETRIC_STEP=0.2" -s "MODULARIZE=1" -o "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1354245_patch_library_html5_firefox_touchevents.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_plat_4600_guard_js_exceptions.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ContextMenu.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/MobileKeyboard.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/uum-34043-patch_emscripten_19226.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/webmemd.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ContentLoadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PropertiesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a" --js-library "Assets/_ImportedAssets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib" --js-library "Assets/_ImportedAssets/TriLib/TriLibSamples/Common/Plugins/PasteManagerPlugin.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Examples/Helpers/Plugins/WebGL/OpenWindow.jslib" --js-library "Assets/Src/Framework/Piglet/Plugins/WebGL/Piglet.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebRequest.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebSocket.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_EventSource.jslib" --js-library "Library/PackageCache/com.unity.analytics@3.8.1/Plugins/WindowUtil.jslib" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracoenc_unity.a" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracodec_unity.a" -lidbfs.js 
+##### Custom Environment Variables
+EM_CONFIG=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\.emscripten
+EMSDK_PYTHON=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\python.exe
+EMCC_SKIP_SANITY_CHECK=1
+EM_FROZEN_CACHE=1
+EM_WORKAROUND_PYTHON_BUG_34780=1
+EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG=1
+##### ExitCode
+1
+##### Output
+error: undefined symbol: _ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ (referenced by top-level compiled C/C++ code)
+warning: Link with `-s LLD_REPORT_UNDEFINED` to get more information on undefined symbols
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+warning: __ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ may need to be added to EXPORTED_FUNCTIONS if it arrives from a system library
+Error: Aborting compilation due to previous errors
+emcc: error: '"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe" "D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\src\compiler.js" C:\Users\YOLOWA~1\AppData\Local\Temp\tmpo02257z2.json' failed (returned 1)
+*** Tundra build failed (61.22 seconds - 0:01:01), 1 items updated, 1170 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[BUSY       6s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      16s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      26s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      36s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      46s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      56s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[1170/1176 61s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+##### CommandLine
+"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat" @"Library\Bee\artifacts\rsp\8995565923215908413.rsp"
+##### Contents of Library\Bee\artifacts\rsp\8995565923215908413.rsp
+-s "EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']" --output_eol linux --memory-init-file 0 -s WASM=1 -O2 -g0 -s EXIT_RUNTIME=0 -s "ALLOW_MEMORY_GROWTH=1" -s "ASSERTIONS=0" -s "DISABLE_EXCEPTION_CATCHING=0" -s "DYNCALLS=1" -s "EXPORT_NAME=unityFramework" -s "FULL_ES3=1" -s "GL_EXPLICIT_UNIFORM_BINDING=1" -s "GL_EXPLICIT_UNIFORM_LOCATION=1" -s "INITIAL_MEMORY=33554432" -s "MAXIMUM_MEMORY=2147483648" -s "MAX_WEBGL_VERSION=2" -s "MEMORY_GROWTH_GEOMETRIC_CAP=100663296" -s "MEMORY_GROWTH_GEOMETRIC_STEP=0.2" -s "MODULARIZE=1" -o "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1354245_patch_library_html5_firefox_touchevents.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_plat_4600_guard_js_exceptions.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ContextMenu.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/MobileKeyboard.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/uum-34043-patch_emscripten_19226.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/webmemd.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ContentLoadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PropertiesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a" --js-library "Assets/_ImportedAssets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib" --js-library "Assets/_ImportedAssets/TriLib/TriLibSamples/Common/Plugins/PasteManagerPlugin.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Examples/Helpers/Plugins/WebGL/OpenWindow.jslib" --js-library "Assets/Src/Framework/Piglet/Plugins/WebGL/Piglet.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebRequest.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebSocket.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_EventSource.jslib" --js-library "Library/PackageCache/com.unity.analytics@3.8.1/Plugins/WindowUtil.jslib" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracoenc_unity.a" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracodec_unity.a" -lidbfs.js 
+##### Custom Environment Variables
+EM_CONFIG=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\.emscripten
+EMSDK_PYTHON=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\python.exe
+EMCC_SKIP_SANITY_CHECK=1
+EM_FROZEN_CACHE=1
+EM_WORKAROUND_PYTHON_BUG_34780=1
+EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG=1
+##### ExitCode
+1
+##### Output
+error: undefined symbol: _ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ (referenced by top-level compiled C/C++ code)
+warning: Link with `-s LLD_REPORT_UNDEFINED` to get more information on undefined symbols
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+warning: __ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ may need to be added to EXPORTED_FUNCTIONS if it arrives from a system library
+Error: Aborting compilation due to previous errors
+emcc: error: '"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe" "D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\src\compiler.js" C:\Users\YOLOWA~1\AppData\Local\Temp\tmpe1nuwcjl.json' failed (returned 1)
+*** Tundra build failed (62.08 seconds - 0:01:02), 1 items updated, 1170 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+abort_threads: Failed aborting id: 00000000000049EC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004FE4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000051D0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000725C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002F18, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002630, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000049EC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004FE4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000051D0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000725C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002F18, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000002630, mono_thread_manage will ignore it
+
+vel 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+2024-5-23
+Rendering UV GBuffer for LoadingScreenScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA10 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for LoadingScreenScene_LMA9 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA10.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA9.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "D:/GICache" "uvpos_LoadingScreenScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX skysh "D:/GICache" "light_1_5" 1924 0 5 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_5" 1924 0 5 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_3" 1924 0 3 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_4" 1924 0 4 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_6" 1924 0 6 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_6" 1924 0 6 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA10" 4 0 6 comp_6.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_7" 1924 0 7 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_7" 1924 0 7 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA9" 4 0 7 comp_7.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_0" 1924 0 0 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_0" 1924 0 0 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_2" 1924 0 2 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_2" 1924 0 2 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX skysh "D:/GICache" "light_1_1" 1924 0 1 sky0.bin
+Running ftraceRTX sunsh "D:/GICache" "light_2_1" 1924 0 1 direct0.bin
+Running ftraceRTX addmul "D:/GICache" "LoadingScreenScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA50.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA30.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA40.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA10_diffuse" 4 16 6 "gi_LoadingScreenScene_LMA100.bin" "LoadingScreenScene_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA9_diffuse" 4 16 7 "gi_LoadingScreenScene_LMA90.bin" "LoadingScreenScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM00.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA20.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA10.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA51.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA31.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA41.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA10_diffuse" 4 16 6 "gi_LoadingScreenScene_LMA101.bin" "LoadingScreenScene_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA9_diffuse" 4 16 7 "gi_LoadingScreenScene_LMA91.bin" "LoadingScreenScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM01.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA21.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA11.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA52.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA32.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA42.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA10_diffuse" 4 16 6 "gi_LoadingScreenScene_LMA102.bin" "LoadingScreenScene_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA9_diffuse" 4 16 7 "gi_LoadingScreenScene_LMA92.bin" "LoadingScreenScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM02.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA22.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA12.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA5_diffuse" 4 16 5 "gi_LoadingScreenScene_LMA53.bin" "LoadingScreenScene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA3_diffuse" 4 16 3 "gi_LoadingScreenScene_LMA33.bin" "LoadingScreenScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA4_diffuse" 4 16 4 "gi_LoadingScreenScene_LMA43.bin" "LoadingScreenScene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA10_diffuse" 4 16 6 "gi_LoadingScreenScene_LMA103.bin" "LoadingScreenScene_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA9_diffuse" 4 16 7 "gi_LoadingScreenScene_LMA93.bin" "LoadingScreenScene_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LM0_diffuse" 4 16 0 "gi_LoadingScreenScene_LM03.bin" "LoadingScreenScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA2_diffuse" 4 16 2 "gi_LoadingScreenScene_LMA23.bin" "LoadingScreenScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "D:/GICache" "LoadingScreenScene_LMA1_diffuse" 4 16 1 "gi_LoadingScreenScene_LMA13.bin" "LoadingScreenScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA5_final" 1924 16 5 "gi_LoadingScreenScene_LMA54.bin" "LoadingScreenScene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA3_final" 1924 16 3 "gi_LoadingScreenScene_LMA34.bin" "LoadingScreenScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA4_final" 1924 16 4 "gi_LoadingScreenScene_LMA44.bin" "LoadingScreenScene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA10_final" 1924 16 6 "gi_LoadingScreenScene_LMA104.bin" "LoadingScreenScene_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA9_final" 1924 16 7 "gi_LoadingScreenScene_LMA94.bin" "LoadingScreenScene_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LM0_final" 1924 16 0 "gi_LoadingScreenScene_LM04.bin" "LoadingScreenScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA2_final" 1924 16 2 "gi_LoadingScreenScene_LMA24.bin" "LoadingScreenScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "D:/GICache" "LoadingScreenScene_LMA1_final" 1924 16 1 "gi_LoadingScreenScene_LMA14.bin" "LoadingScreenScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA5_final_" 4 0 5 shcomp_5.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA5_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA5_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA5_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA5_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "5" "LoadingScreenScene_LMA5_final_L0.lz4" "LoadingScreenScene_LMA5_final_L1x.lz4" "LoadingScreenScene_LMA5_final_L1y.lz4" "LoadingScreenScene_LMA5_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA3_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA3_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA3_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA3_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "3" "LoadingScreenScene_LMA3_final_L0.lz4" "LoadingScreenScene_LMA3_final_L1x.lz4" "LoadingScreenScene_LMA3_final_L1y.lz4" "LoadingScreenScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA4_final_" 4 0 4 shcomp_4.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA4_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA4_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA4_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA4_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "4" "LoadingScreenScene_LMA4_final_L0.lz4" "LoadingScreenScene_LMA4_final_L1x.lz4" "LoadingScreenScene_LMA4_final_L1y.lz4" "LoadingScreenScene_LMA4_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA10_final_" 4 0 6 shcomp_6.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA10_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA10_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA10_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA10_final_L1z.lz4" 128 0
+Running seamfixer "D:/GICache" "6" "LoadingScreenScene_LMA10_final_L0.lz4" "LoadingScreenScene_LMA10_final_L1x.lz4" "LoadingScreenScene_LMA10_final_L1y.lz4" "LoadingScreenScene_LMA10_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA9_final_" 4 0 7 shcomp_7.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA9_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA9_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA9_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA9_final_L1z.lz4" 512 0
+Running seamfixer "D:/GICache" "7" "LoadingScreenScene_LMA9_final_L0.lz4" "LoadingScreenScene_LMA9_final_L1x.lz4" "LoadingScreenScene_LMA9_final_L1y.lz4" "LoadingScreenScene_LMA9_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LM0_final_L0.lz4" "D:/GICache/LoadingScreenScene_LM0_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LM0_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LM0_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "0" "LoadingScreenScene_LM0_final_L0.lz4" "LoadingScreenScene_LM0_final_L1x.lz4" "LoadingScreenScene_LM0_final_L1y.lz4" "LoadingScreenScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA2_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA2_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA2_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA2_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "2" "LoadingScreenScene_LMA2_final_L0.lz4" "LoadingScreenScene_LMA2_final_L1x.lz4" "LoadingScreenScene_LMA2_final_L1y.lz4" "LoadingScreenScene_LMA2_final_L1z.lz4"
+Running ftraceRTX addsh "D:/GICache" "LoadingScreenScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN2 s "D:/GICache/LoadingScreenScene_LMA1_final_L0.lz4" "D:/GICache/LoadingScreenScene_LMA1_final_L1x.lz4" "D:/GICache/LoadingScreenScene_LMA1_final_L1y.lz4" "D:/GICache/LoadingScreenScene_LMA1_final_L1z.lz4" 1024 0
+Running seamfixer "D:/GICache" "1" "LoadingScreenScene_LMA1_final_L0.lz4" "LoadingScreenScene_LMA1_final_L1x.lz4" "LoadingScreenScene_LMA1_final_L1y.lz4" "LoadingScreenScene_LMA1_final_L1z.lz4"
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA5_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA5_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA5_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA5_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA5_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA3_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA3_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA3_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA3_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA3_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA4_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA4_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA4_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA4_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA4_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA10_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA10_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA10_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA10_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA10_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA10_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA10_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA10_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA9_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA9_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA9_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA9_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA9_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA9_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA9_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA9_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LM0_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LM0_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LM0_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LM0_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LM0_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA2_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA2_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA2_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA2_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA2_L1z.tga" 
+Running halffloat2hdr "D:/GICache/LoadingScreenScene_LMA1_final_L0.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L0.hdr" 1024
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA1_final_L1x.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L1x.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA1_final_L1y.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L1y.tga" 
+Running rgba2tga "D:/GICache/LoadingScreenScene_LMA1_final_L1z.lz4" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Assets/_Level/_Scenes/LoadingScreenScene/LoadingScreenScene_LMA1_L1z.tga" 
+Symbol file LoadedFromMemory is not a mono symbol file
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[ 218/1176  0s] CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json
+[1165/1176  0s] CopyFiles Temp/EditorBuildOutput/MethodMap.tsv
+[1166/1176  0s] AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config
+[1167/1176  0s] Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data
+[1168/1176  2s] 7z Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+1 file, 33203847 bytes (32 MiB)
+
+Creating archive: D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/webgl.data.unmarked
+
+Add new data to archive: 1 file, 33203847 bytes (32 MiB)
+
+
+Files read from disk: 1
+Archive size: 16850599 bytes (17 MiB)
+Everything is Ok
+[1169/1176  0s] GzipMarker Builds/WebGL/Build/WebGL.data.gz
+[BUSY       8s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      18s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      28s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      38s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      48s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[1170/1176 56s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+##### CommandLine
+"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat" @"Library\Bee\artifacts\rsp\8995565923215908413.rsp"
+##### Contents of Library\Bee\artifacts\rsp\8995565923215908413.rsp
+-s "EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']" --output_eol linux --memory-init-file 0 -s WASM=1 -O2 -g0 -s EXIT_RUNTIME=0 -s "ALLOW_MEMORY_GROWTH=1" -s "ASSERTIONS=0" -s "DISABLE_EXCEPTION_CATCHING=0" -s "DYNCALLS=1" -s "EXPORT_NAME=unityFramework" -s "FULL_ES3=1" -s "GL_EXPLICIT_UNIFORM_BINDING=1" -s "GL_EXPLICIT_UNIFORM_LOCATION=1" -s "INITIAL_MEMORY=33554432" -s "MAXIMUM_MEMORY=2147483648" -s "MAX_WEBGL_VERSION=2" -s "MEMORY_GROWTH_GEOMETRIC_CAP=100663296" -s "MEMORY_GROWTH_GEOMETRIC_STEP=0.2" -s "MODULARIZE=1" -o "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1354245_patch_library_html5_firefox_touchevents.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_plat_4600_guard_js_exceptions.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ContextMenu.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/MobileKeyboard.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/uum-34043-patch_emscripten_19226.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/webmemd.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ContentLoadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PropertiesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a" --js-library "Assets/_ImportedAssets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib" --js-library "Assets/_ImportedAssets/TriLib/TriLibSamples/Common/Plugins/PasteManagerPlugin.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Examples/Helpers/Plugins/WebGL/OpenWindow.jslib" --js-library "Assets/Src/Framework/Piglet/Plugins/WebGL/Piglet.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebRequest.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebSocket.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_EventSource.jslib" --js-library "Library/PackageCache/com.unity.analytics@3.8.1/Plugins/WindowUtil.jslib" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracoenc_unity.a" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracodec_unity.a" -lidbfs.js 
+##### Custom Environment Variables
+EM_CONFIG=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\.emscripten
+EMSDK_PYTHON=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\python.exe
+EMCC_SKIP_SANITY_CHECK=1
+EM_FROZEN_CACHE=1
+EM_WORKAROUND_PYTHON_BUG_34780=1
+EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG=1
+##### ExitCode
+1
+##### Output
+error: undefined symbol: _ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ (referenced by top-level compiled C/C++ code)
+warning: Link with `-s LLD_REPORT_UNDEFINED` to get more information on undefined symbols
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+warning: __ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ may need to be added to EXPORTED_FUNCTIONS if it arrives from a system library
+Error: Aborting compilation due to previous errors
+emcc: error: '"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe" "D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\src\compiler.js" C:\Users\YOLOWA~1\AppData\Local\Temp\tmplaxc595v.json' failed (returned 1)
+*** Tundra build failed (56.82 seconds), 7 items updated, 1170 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+Total cache size 268393924
+Total cache size after purge 268393924
+[BUSY       6s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      16s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      26s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      36s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[BUSY      46s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+[1170/1176 56s] Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)
+##### CommandLine
+"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat" @"Library\Bee\artifacts\rsp\8995565923215908413.rsp"
+##### Contents of Library\Bee\artifacts\rsp\8995565923215908413.rsp
+-s "EXPORTED_RUNTIME_METHODS=['addRunDependency','removeRunDependency','FS_createPath','FS_createDataFile','ccall','cwrap','stackTrace']" --output_eol linux --memory-init-file 0 -s WASM=1 -O2 -g0 -s EXIT_RUNTIME=0 -s "ALLOW_MEMORY_GROWTH=1" -s "ASSERTIONS=0" -s "DISABLE_EXCEPTION_CATCHING=0" -s "DYNCALLS=1" -s "EXPORT_NAME=unityFramework" -s "FULL_ES3=1" -s "GL_EXPLICIT_UNIFORM_BINDING=1" -s "GL_EXPLICIT_UNIFORM_LOCATION=1" -s "INITIAL_MEMORY=33554432" -s "MAXIMUM_MEMORY=2147483648" -s "MAX_WEBGL_VERSION=2" -s "MEMORY_GROWTH_GEOMETRIC_CAP=100663296" -s "MEMORY_GROWTH_GEOMETRIC_STEP=0.2" -s "MODULARIZE=1" -o "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Audio.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_1354245_patch_library_html5_firefox_touchevents.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/case_plat_4600_guard_js_exceptions.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ContextMenu.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Cursor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/dlopen.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/DOM.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Eval.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/FileSystem.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Logging.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/MobileKeyboard.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Profiler.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/ScreenOrientation.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Sensor.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/SystemInfo.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/UnetWebSocket.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/uum-34043-patch_emscripten_19226.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/Video.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebCam.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/webmemd.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/WebRequest.js" --js-library "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/_patch_library_exceptions.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/UserJsprePlaceholder.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/bw-compat.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/Error.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/FullScreen.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/IdbFs.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/MediaDevices.js" --pre-js "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/prejs/SendMessage.js" "D:/Unity Repos/yolo-treedev-cms-clothing-configurator/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AccessibilityModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AndroidJNIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AnimationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_AudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ClothModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ContentLoadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CoreModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_CrashReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DirectorModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_DSPGraphModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GameCenterModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_GridModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_HotReloadModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ImageConversionModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_IMGUIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputLegacyModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_InputModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_JSONSerializeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_LocalizationModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ParticleSystemModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PerformanceReportingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_Physics2DModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ProfilerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_PropertiesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_ScreenCaptureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SharedInternalsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteMaskModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SpriteShapeModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_StreamingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubstanceModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_SubsystemsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TerrainPhysicsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreFontEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextCoreTextEngineModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TextRenderingModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TilemapModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_TLSModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIElementsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UIModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UmbraModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsCommonModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityAnalyticsModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityConnectModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityCurlModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityTestProtocolModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestAudioModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestTextureModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_UnityWebRequestWWWModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VehiclesModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VFXModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VideoModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_VRModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WebGLModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_WindModule_Dynamic.a" "D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/lib/modules/WebGLSupport_XRModule_Dynamic.a" --js-library "Assets/_ImportedAssets/TriLib/TriLibStandaloneFileBrowser/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib" --js-library "Assets/_ImportedAssets/TriLib/TriLibSamples/Common/Plugins/PasteManagerPlugin.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Examples/Helpers/Plugins/WebGL/OpenWindow.jslib" --js-library "Assets/Src/Framework/Piglet/Plugins/WebGL/Piglet.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebRequest.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_WebSocket.jslib" --js-library "Assets/_ImportedAssets/Best HTTP/Plugins/WebGL/BestHTTP_EventSource.jslib" --js-library "Library/PackageCache/com.unity.analytics@3.8.1/Plugins/WindowUtil.jslib" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracoenc_unity.a" "Library/PackageCache/com.atteneder.draco@4.1.0/Runtime/Plugins/WebGL/libdracodec_unity.a" -lidbfs.js 
+##### Custom Environment Variables
+EM_CONFIG=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\.emscripten
+EMSDK_PYTHON=D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\python\python.exe
+EMCC_SKIP_SANITY_CHECK=1
+EM_FROZEN_CACHE=1
+EM_WORKAROUND_PYTHON_BUG_34780=1
+EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG=1
+##### ExitCode
+1
+##### Output
+error: undefined symbol: _ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ (referenced by top-level compiled C/C++ code)
+warning: Link with `-s LLD_REPORT_UNDEFINED` to get more information on undefined symbols
+warning: To disable errors for undefined symbols use `-s ERROR_ON_UNDEFINED_SYMBOLS=0`
+warning: __ZNSt3__212basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_ may need to be added to EXPORTED_FUNCTIONS if it arrives from a system library
+Error: Aborting compilation due to previous errors
+emcc: error: '"D:/Unity Editors/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe" "D:\Unity Editors\2022.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\Emscripten\emscripten\src\compiler.js" C:\Users\YOLOWA~1\AppData\Local\Temp\tmpqg88o9sy.json' failed (returned 1)
+*** Tundra build failed (56.19 seconds), 1 items updated, 1170 evaluated
+Total cache size 268393924
+Total cache size after purge 268393924
+abort_threads: Failed aborting id: 000000000000357C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000074C0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007D68, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000357C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000074C0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000007D68, mono_thread_manage will ignore it
+
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127

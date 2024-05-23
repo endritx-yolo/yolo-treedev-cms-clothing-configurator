@@ -16,8 +16,6 @@ public class SwitchMannequin : MonoBehaviour
         StartCoroutine(FillListWithLoadedModels());
     }
 
-    
-
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))
