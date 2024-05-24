@@ -1,24 +1,41 @@
-using System.Collections;
-using System.Collections.Generic;
+using DG.Tweening;
+using NaughtyAttributes;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class SliderPresenter : MonoBehaviour
 {
-    private Slider _progressSlider;
-    [SerializeField] private float multiplySlider;
-    
+    [SerializeField] private Slider _greenSlider;
+    [SerializeField] private Slider _whiteSlider;
+
+    [BoxGroup("Tweening")] [SerializeField]
+    private float _followSpeed = 1f;
+
+    private Tween _sliderTween;
+
     private void Awake()
     {
-        _progressSlider = gameObject.GetComponent<Slider>();
-        _progressSlider.value = 0f;
+        _greenSlider.value = 0f;
+        _whiteSlider.value = 0f;
     }
-    
-    
-    public void UpdateSlider(float currentDownload,float totalDownload)
+
+    public void UpdateSlider(float currentDownload, float totalDownload)
     {
-        _progressSlider.maxValue = totalDownload;
-        _progressSlider.value = currentDownload * multiplySlider;
+        _greenSlider.maxValue = totalDownload;
+        _greenSlider.value = currentDownload;
+
+        UpdateWhiteSlider();
+    }
+
+    private void UpdateWhiteSlider()
+    {
+        KillTween();
+        _sliderTween = _whiteSlider.DOValue(_greenSlider.value, _followSpeed).SetSpeedBased()
+            .SetEase(Ease.OutQuad);
+    }
+
+    private void KillTween()
+    {
+        if (_sliderTween != null) _sliderTween.Kill();
     }
 }

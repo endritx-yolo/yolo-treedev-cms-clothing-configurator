@@ -6,15 +6,15 @@ using System;
 public class GLTFModelImporter : MonoBehaviour
 {
     public event Action OnLoaded;
-    
-    
+    public event Action OnDownloading;
+
     private GltfImportTask _task;
     private GameObject _model;
 
     private bool _isLoaded;
 
-    [SerializeField] private float _currentProgress;
-    [SerializeField] private float _totalDownload;
+    private int _currentProgress;
+    private int _totalDownload;
 
     public bool IsLoaded
     {
@@ -28,13 +28,13 @@ public class GLTFModelImporter : MonoBehaviour
 
     public GameObject Model => _model;
 
-    public float CurrentProgress
+    public int CurrentProgress
     {
         get => _currentProgress;
         private set => _currentProgress = value;
     }
 
-    public float TotalDownload
+    public int TotalDownload
     {
         get => _totalDownload;
         private set => _totalDownload = value;
@@ -68,10 +68,14 @@ public class GLTFModelImporter : MonoBehaviour
 
     private void OnProgress(GltfImportStep step, int completed, int total)
     {
-        Debug.LogFormat("{0}: {1}/{2}", step, completed, total);
         if (step != GltfImportStep.Download) return;
+        /*if (completed > 0)
+            Debug.Log($"<color=red>{gameObject.name}</color> > {step}: {completed}/{total}");
+        else
+            Debug.Log($"{gameObject.name} > {step}: {completed}/{total}");*/
         CurrentProgress = completed;
         TotalDownload = total;
+        OnDownloading?.Invoke();
     }
 
     private void Update()
