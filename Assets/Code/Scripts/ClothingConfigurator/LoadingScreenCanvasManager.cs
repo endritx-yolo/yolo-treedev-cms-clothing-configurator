@@ -1,19 +1,16 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using NaughtyAttributes;
 using UnityEngine;
+using System;
 
 public class LoadingScreenCanvasManager : MonoBehaviour
 {
+    public static event Action OnAnyLoadingFinished;
+    
     [BoxGroup("Loading Screen Panel")]
     [SerializeField] private GameObject loadingScreenCanvas;
-    [BoxGroup("Sliders")]
-    [SerializeField] private SliderPresenter sliderPresenter;
-    [BoxGroup("Sliders")]
-    [SerializeField] private SliderPresenter highlitedSliderPresenter;
     
-    
+    private SliderPresenter _sliderPresenter;
+
     private GLTFModelImporter[] _gltfModelImporter;
     private GltfImporterTotalCalculation[] _gltfImporterTotalCalculations;
     
@@ -21,6 +18,7 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     {
         _gltfImporterTotalCalculations = FindObjectsOfType<GltfImporterTotalCalculation>();
         _gltfModelImporter = FindObjectsOfType<GLTFModelImporter>();
+        _sliderPresenter = GetComponent<SliderPresenter>();
         foreach (var model in _gltfModelImporter)
         {
             model.OnLoaded += TryHideLoadingScreen;
@@ -40,8 +38,7 @@ public class LoadingScreenCanvasManager : MonoBehaviour
     private void GLTFModelImporterOnOnLoadingModels(float currentDownload, float totalDownload)
     {
         loadingScreenCanvas.SetActive(true);
-        sliderPresenter.UpdateSlider(currentDownload, totalDownload);
-        highlitedSliderPresenter.UpdateSlider(currentDownload, totalDownload);
+        _sliderPresenter.UpdateSlider(currentDownload, totalDownload);
     }
 
     private void TryHideLoadingScreen()
@@ -50,8 +47,6 @@ public class LoadingScreenCanvasManager : MonoBehaviour
             if (!model.IsLoaded)
                 return;
 
-        loadingScreenCanvas.SetActive(false);
+        OnAnyLoadingFinished?.Invoke();
     }
-   
-    
 }

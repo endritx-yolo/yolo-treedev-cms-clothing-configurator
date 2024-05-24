@@ -72,13 +72,13 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 500
-  field of view: 35
+  field of view: 45
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294966527
+    m_Bits: 4294965503
   m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2414419508878146929}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 272bc65dbf5cbca45840c32881688950, type: 3}
   m_Name: 
@@ -236,11 +236,11 @@ MonoBehaviour:
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
   _camera: {fileID: 0}
-  zoom: 35
+  zoom: 45
   damping: 1.5
   clamp: 1
   clampMin: 35
-  clampMax: 55
+  clampMax: 75
   relative: 0
   ignoreZ: 0
   ScreenDepth:
@@ -251,7 +251,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 0
     Distance: 0
-  currentZoom: 35
+  currentZoom: 45
   remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!114 &37633055990014984
 MonoBehaviour:
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2414419508878146929}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a3b471402792da4fa352bb20f645c26, type: 3}
   m_Name: 
@@ -268,7 +268,7 @@ MonoBehaviour:
   requiredSelectable: {fileID: 0}
   requiredMouseButton: -1
   modify: 0
-  multiplier: -0.1
+  multiplier: -0.001
   coordinate: 1
   onDelta:
     m_PersistentCalls:
@@ -312,8 +312,8 @@ MonoBehaviour:
   LateCut: 1
   BlurRadius: 18.2
   BlurQuality: 5
-  LateCutThreshohld: 0
-  LateCutPower: 1.526
+  LateCutThreshohld: 0.245
+  LateCutPower: 2.775
   UseDepthFiltering: 0
   DepthFilteringPower: 0
   UseNoise: 1

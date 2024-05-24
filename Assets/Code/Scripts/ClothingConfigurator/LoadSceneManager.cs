@@ -1,36 +1,27 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using NaughtyAttributes;
+using System;
 
 public class LoadSceneManager : MonoBehaviour
 {
-    [Scene][SerializeField] private string sceneToLoadName;
-    private GLTFModelImporter[] _modelImporterArray;
-    [SerializeField] private GameObject mainCamera;
-    
+    public static event Action OnAnyNewSceneLoaded;
 
-   
+    [Scene] [SerializeField] private string sceneToLoadName;
 
-    private void Awake()
+    private void OnEnable()
     {
-        mainCamera.SetActive(true);
-        _modelImporterArray = FindObjectsOfType<GLTFModelImporter>();
-
-        for (int i = 0; i < _modelImporterArray.Length; i++)
-        {
-            _modelImporterArray[i].OnLoaded += TryLoadNextScene;
-
-        }
+        ScreenFader.OnAnyScreenFadeIn += TryLoadNextScene;
+        SceneManager.sceneLoaded += OnNewSceneLoaded;
     }
 
-    private void TryLoadNextScene()
+    private void OnDisable()
     {
-        for (int i = 0; i < _modelImporterArray.Length; i++)
-            if (!_modelImporterArray[i].IsLoaded)
-                return;
-
-        mainCamera.SetActive(false);
-        SceneManager.LoadSceneAsync(sceneToLoadName, LoadSceneMode.Additive);
+        ScreenFader.OnAnyScreenFadeIn -= TryLoadNextScene;
+        SceneManager.sceneLoaded -= OnNewSceneLoaded;
     }
+
+    private void TryLoadNextScene() => SceneManager.LoadSceneAsync(sceneToLoadName, LoadSceneMode.Additive);
+
+    private void OnNewSceneLoaded(Scene scene, LoadSceneMode mode) => OnAnyNewSceneLoaded?.Invoke();
 }
