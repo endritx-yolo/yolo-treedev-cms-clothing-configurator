@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,34 +11,34 @@ public class RuntimeMannequinAnimationManager : MonoBehaviour
     private AnimationList _animList;
     private bool _isPlayingFirstAnimation = true;
     private int _secondAnimationCount;
-    
-    
+
+    [SerializeField] private GameObject importedModel;
+
+    private ClothingModelImporter _clothingModelImporter;
     public AnimationList AnimList => _animList;
 
-    private void Start()
+
+    private void Awake()
     {
-        var importOptions = new GltfImportOptions
-        {
-            AutoScale = true,
-            AutoScaleSize = 1.0f
-        };
-
-        _task = RuntimeGltfImporter.GetImportTask(
-            @"C:\Users\winwin.al\Desktop\FemaleAnimations.zip",
-            importOptions);
-
-        _task.OnCompleted = OnImportComplete;
-        
+        _clothingModelImporter = GetComponent<ClothingModelImporter>();
     }
 
-    public void OnImportComplete(GameObject importedModel)
+    private void OnEnable()
     {
+        if (_clothingModelImporter != null)
+            _clothingModelImporter.OnGetModelReference += ClothingModelImporterOnOnGetModelReference;
+    }
+
+
+    private void ClothingModelImporterOnOnGetModelReference(GameObject modelReference)
+    {
+        importedModel = modelReference;
         _anim = importedModel.GetComponent<Animation>();
         _animList = importedModel.GetComponent<AnimationList>();
-        
-        
+
         StartCoroutine(PlayAnimationSequence());
     }
+
 
     public IEnumerator PlayAnimationSequence()
     {
@@ -46,7 +47,7 @@ public class RuntimeMannequinAnimationManager : MonoBehaviour
             if (_isPlayingFirstAnimation)
             {
                 _anim.Play(_animList.Clips[0].name);
-                yield return new WaitForSeconds(3f);
+                yield return new WaitForSeconds(6f);
                 _isPlayingFirstAnimation = false;
             }
             else
@@ -61,16 +62,7 @@ public class RuntimeMannequinAnimationManager : MonoBehaviour
                 }
             }
         }
+
         _anim.Play(_animList.Clips[0].name);
-    }
-
-    private void Update()
-    {
-        _task.MoveNext();
-    }
-
-    public void GetImportedModel(GameObject importedModel)
-    {
-        
     }
 }
