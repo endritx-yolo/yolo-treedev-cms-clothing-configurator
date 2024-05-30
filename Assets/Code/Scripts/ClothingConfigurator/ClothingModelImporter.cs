@@ -7,6 +7,8 @@ public class ClothingModelImporter : MonoBehaviour
 {
     public event Action OnActionComplete;
 
+    public event Action<GameObject> OnGetModelReference;
+
     [SerializeField] private uint _clothingAssetId;
 
     [SerializeField] private GameObject _loadedModel;
@@ -55,6 +57,7 @@ public class ClothingModelImporter : MonoBehaviour
             child.gameObject.layer = layerNumber;
 
         OnActionComplete?.Invoke();
+        OnGetModelReference?.Invoke(model);
     }
 
     private void OnLoadTexture(Texture2D loadedTexture)
